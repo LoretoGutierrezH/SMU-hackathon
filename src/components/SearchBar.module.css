@@ -1,0 +1,10 @@
+.searchBarContainer {
+  display: flex;
+  height: 2rem;
+  align-items: center;
+}
+
+.searchBar {
+  padding: .2rem;
+}
+
