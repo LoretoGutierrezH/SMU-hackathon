@@ -4,8 +4,9 @@ const SearchResult = (props) => {
   return (
     <li>
       <h5>{props.name}</h5>
-      <p>{props.quantity}</p>
-      <p>{props.price}</p>
+      <div className="imgContainer">
+        <img src={props.image} alt=""/>
+      </div>
     </li>
   );
 }

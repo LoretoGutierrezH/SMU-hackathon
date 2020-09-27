@@ -1,6 +1,11 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
 .authBtn {
-  background-color: red;
-  color: white;
+  color: #212020;
   font-weight: bold;
   padding: 1rem;
   display: inline-block;

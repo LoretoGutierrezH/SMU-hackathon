@@ -1,7 +1,11 @@
 import React from 'react';
 import firebase, { db, auth } from './Firebase';
-import style from './App.module.css';
-import SearchBar from './components/SearchBar.jsx';
+import Header from './components/Header/Header.jsx';
+import NavBar from './components/NavBar/NavBar.jsx';
+import BannerSlider from './components/BannerSlider/BannerSlider.jsx';
+import Recipes from './components/Recipes/Recipes.jsx';
+import SearchBar from './components/SearchBar/SearchBar.jsx';
+import Footer from './components/Footer/Footer.jsx';
 import  { BrowserRouter as Router,  Route, Switch } from 'react-router-dom';
 console.log(db, auth.currentUser);
 const App = () => {
@@ -25,16 +29,16 @@ const App = () => {
   return (
     <Router>
       <div className="App">
-        <Route path="/">
-          <h1>Página principal de Unimarc Recetas</h1>
-          {/* botones para rutear a formulario de ingreso o registro */}
-          <nav>
-            <p className={style.authBtn}>Ingresa</p>
-            <p className={style.authBtn}>Regístrate</p>
-          </nav>
-          <SearchBar></SearchBar>
-        </Route>
+        <Header />
+        <NavBar />
+        <Switch>
+          <Route path="/" exact>
+            <h1>Página principal de Unimarc Recetas</h1>
+          </Route>
+          <Route path="/recetas" component={Recipes} />
+        </Switch>
       </div>
+      <Footer />
     </Router>
   );
 }
