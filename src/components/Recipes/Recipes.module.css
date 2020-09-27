@@ -1,0 +1,23 @@
+.recipesContainer {
+  min-height: 300vh;
+}
+
+.menuBtn {
+  background-color: #DA291C;
+  color: white;
+  border: none;
+  padding: 0rem 4rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  max-height: 3rem;
+}
+
+.menuBtn > .chevron {
+  font-size: 2rem;
+}
+
+.actionsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0rem 2rem;
+}

@@ -1,0 +1,7 @@
+.bgColor {
+  background-color: red;
+}
+
+.linksColor > a {
+  color: white;
+}
