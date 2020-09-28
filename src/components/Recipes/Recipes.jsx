@@ -72,7 +72,10 @@ const Recipes = (props) => {
           <button onClick={() => showList()} className={style.menuBtn}>
             Menú <span className={style.chevron}>&#x2304;</span>
           </button>
-          <ul className={!menuState ? `${style.menuList} ${style.hidden}` : `${style.menuList} ${style.active}`}>
+        </section>
+        <SearchBar search={(event) => searchHandler(event)}></SearchBar>
+      </section>
+      <ul className={!menuState ? `${style.menuList} ${style.hidden}` : `${style.menuList} ${style.active}`}>
             <li>Saludables</li>
             <li>Almuerzos</li>
             <li>Postres</li>
@@ -81,9 +84,6 @@ const Recipes = (props) => {
             <li>Sin gluten</li>
             <li>En menos de 30 min</li>
           </ul>
-        </section>
-        <SearchBar search={(event) => searchHandler(event)}></SearchBar>
-      </section>
       <section className={style.cardsWrapper}>{displayedResult}</section>
     </main>
   );

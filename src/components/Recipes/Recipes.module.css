@@ -24,7 +24,8 @@
 
 .menuList > li {
   list-style: none;
-  padding: 1rem .5rem;
+  padding: 1rem .2rem;
+  width: 10rem;
 }
 
 .menuList > li:last-child {
@@ -35,17 +36,22 @@
   display: block;
   margin-top: -1.4rem;
   z-index: 1000;
+  position: absolute;
+  left: 2rem;
 }
 
 .hidden {
   display: none;
+  z-index: 1000;
+  position: absolute;
+  left: 2rem;
 }
 
 .actionsContainer {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  margin: 0rem 2rem;
+  margin: 0rem 7rem;
 }
 
 .cardsWrapper {
