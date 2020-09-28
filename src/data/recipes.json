@@ -6,6 +6,7 @@
       "name": "Quinotto de Champiñones",
       "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinotto%20de%20Champi%C3%B1ones.jpg?alt=media&token=d8a2e5c6-bfbc-4201-824e-617a87ac3d65",
       "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "time":"40 Minutos",
       "ingredients":[
         {
           "id": 1,
@@ -33,7 +34,7 @@
         }         
       ],
       "preparation": "Comenzamos cortando 4 champiñones en cubitos y luego agregamos aceite a una olla y salteamos los champiñones por unos 5 minutos con un poco de sal y pimienta. Luego, agregamos la quinoa a la olla, sofreímos por un par de minutos y finalmente agregamos 1 lt. de agua hervida. Cocinar el quinotto entre 8 a 10 minutos a fuego medio. Para la decoración del quinotto, cortar el resto de los champiñones en rodajas muy delgadas y freírlos en un sartén con una buena cantidad de aceite hasta que estén dorados. Dejar cocinar entre 3 a 5 minutos a fuego medio. Apagar la olla donde estamos cocinando el quinotto, agregar 40 gr. de queso parmesano, 1 cucharada de mantequilla y un poquito de perejil fresco picado. Revolver, esperar que baje la temperatura y agregar los 200 ml. de crema. Emplatar agregando una cucharada de quinotto por plato y sobre ella un puñado de champiñones fritos.",
-      "pre-requisites":["1 cucharada de mantequilla y perejil."]
+      "prerequisites":["1 cucharada de mantequilla y perejil."]
     },
     {
 

@@ -22,6 +22,8 @@
 
 .info{
   border: 3px solid blue;
+  display: flex;
+  flex-direction: row;
 }
 
 .ingredients{
@@ -45,7 +47,9 @@ border: 3px solid orange;
 
 .social-media{
   border: 3px solid chartreuse; 
+ 
 }
+
 
 .video{
   border: 3px solid chocolate; 

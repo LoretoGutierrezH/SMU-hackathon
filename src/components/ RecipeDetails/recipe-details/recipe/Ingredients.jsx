@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import { RecipeContext } from '../../../../contexts/recipe';
+import { RecipeContext } from '../../../contexts/recipe';
 import Skeleton from 'react-loading-skeleton';
 
 export const Ingredients = () => {
