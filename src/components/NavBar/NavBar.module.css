@@ -1,7 +1,15 @@
 .bgColor {
   background-color: red;
+  min-height: 8vh;
+  width: 100%;
 }
 
 .linksColor > a {
   color: white;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .bgColor {
+    min-height: 12vh;
+  }
 }
