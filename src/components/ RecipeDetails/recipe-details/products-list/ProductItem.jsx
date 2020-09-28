@@ -1,7 +1,9 @@
 import React, {useContext} from 'react';
 import { RecipeContext } from '../../../contexts/recipe';
 import Skeleton from 'react-loading-skeleton';
-import cart from '../../../../assets/cart.png'
+import { ButtonQuality } from './ButtonQuality';
+
+
 
 export const ProductItem = () => {
    const {
@@ -30,12 +32,7 @@ export const ProductItem = () => {
                   <p>{ingredient.name}</p>
                   <p> $ {ingredient.cost}</p>
                 </div> 
-                <div>
-                  <button className='btnqty' >-</button>
-                  <input className='quantity' type="text"/>
-                  <button className='btnqty'>+</button>
-                  <button className='carrit' width='auto' height='70'><img alt="carrito" src={cart}/>Agregar</button>
-                </div>
+                <ButtonQuality />
               </div>                
               })}
           </ul>}

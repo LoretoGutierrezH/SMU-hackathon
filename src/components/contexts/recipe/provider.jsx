@@ -27,7 +27,7 @@ export const RecipeContextProvider = ({children}) =>{
       })
     })
 
-    const recipe = await getRecipe(2) // obtenemos los datos
+    const recipe = await getRecipe(11) // obtenemos los datos
     setState((prevState)=>{
       return({
         ...prevState,
