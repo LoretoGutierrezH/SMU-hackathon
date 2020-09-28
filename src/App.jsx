@@ -6,6 +6,7 @@ import BannerSlider from './components/BannerSlider/BannerSlider.jsx';
 import Recipes from './components/Recipes/Recipes.jsx';
 import SearchBar from './components/SearchBar/SearchBar.jsx';
 import Footer from './components/Footer/Footer.jsx';
+import {RecipeDetails} from './components/ RecipeDetails/recipe-details/index.jsx';
 import  { BrowserRouter as Router,  Route, Switch } from 'react-router-dom';
 console.log(db, auth.currentUser);
 
@@ -38,6 +39,7 @@ const App = () => {
             <h1>Página principal de Unimarc Recetas</h1>
           </Route>
           <Route path="/recetas" component={Recipes} />
+          <Route path="/recipedetails" component={RecipeDetails} />
         </Switch>
       </div>
       <Footer />

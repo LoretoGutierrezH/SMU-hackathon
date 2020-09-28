@@ -1,0 +1,167 @@
+.recipe-detail-container {
+  display: grid;
+  grid-template-columns:  70% 30%;
+  grid-template-rows:  auto;
+}
+
+.recipe-container {
+  border: 3px solid red;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.products-list-container {
+  border: 3px solid magenta;
+  background: rgba(255, 255, 255, 0.91);
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.item{
+  border: 3px solid green;
+}
+.imag{
+  border: 3px solid royalblue;
+  display: flex;
+  flex-direction: row;
+}
+
+.item-info{
+   border: 3px solid red;
+}
+.carrit{
+  color: #fff;
+  background-color:#E7332C;
+  border-radius: 5%;
+ 
+  
+  
+ 
+}
+.quantity{
+  width: 30px;
+ 
+  padding: 10px;
+}
+
+.btnqty{
+  border: none;
+  margin: 5px;
+  padding: 10px;
+}
+
+.info{
+  border: 3px solid blue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.watch{
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.cutlery{
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 5px; 
+}
+
+.like{
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.ingredients{
+  margin: 5px;
+  border: 3px solid burlywood;
+  width: 100%
+}
+
+.interactive-qr{
+  margin: 5px;
+  border: 3px solid black;
+}
+.qrcode{
+  color: red;
+  height: auto;
+  width: auto;
+}
+.preparation{
+border: 3px solid orange;
+}
+
+.pre-requisites{
+  border: 3px solid tomato; 
+}
+
+.social-media{
+  border: 3px solid chartreuse; 
+ 
+}
+.facebook{
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.facebook{
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.instagram{
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.twitter{
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.video{
+  border: 3px solid chocolate; 
+  flex-shrink: 4;
+  margin: 5px;
+  width: 500px;
+  
+
+}
+
+.header-recipe{
+  border: 3px solid brown;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header-recipe > .right-container {
+  border: 3px solid brown;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 350px;
+  margin: 5px;
+}

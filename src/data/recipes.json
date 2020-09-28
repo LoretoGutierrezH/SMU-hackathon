@@ -1,644 +1,819 @@
-{
-  "recipes": [
+{ 
+  "recipes":[
     {
       "id": 1,
+      "category":"vegetarian",
       "name": "Quinotto de Champiñones",
       "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinotto%20de%20Champi%C3%B1ones.jpg?alt=media&token=d8a2e5c6-bfbc-4201-824e-617a87ac3d65",
-      "ingredients": [
+      "video":"https://www.youtube.com/embed/_lqS2yvCqxU",
+      "time":"40 Minutos",
+      "ingredients":[
         {
           "id": 1,
           "name": "Quinoa Carozzi 250 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinoa%20Carozzi%20250%20gr.png?alt=media&token=09759f08-f40b-471f-b1a9-53606eb43b2e"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinoa%20Carozzi%20250%20gr.png?alt=media&token=09759f08-f40b-471f-b1a9-53606eb43b2e",
+          "cost": 990
+        }, 
         {
           "id": 2,
           "name": "Champiñón bandeja 200 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Champi%C3%B1%C3%B3n%20bandeja%20200gr.png?alt=media&token=38760336-9a14-49be-ae8b-f4a646662f7c"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Champi%C3%B1%C3%B3n%20bandeja%20200gr.png?alt=media&token=38760336-9a14-49be-ae8b-f4a646662f7c",
+          "cost": 990
+        }, 
         {
           "id": 3,
           "name": "Crema espesa Soprole larga vida 200 ml.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932",
+          "cost": 990
+        }, 
         {
           "id": 4,
           "name": "Queso rallado Quillayes 40 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b"
-        }
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b",
+          "cost": 990
+        }         
       ],
-      "Preparation": "Comenzamos cortando 4 champiñones en cubitos y luego agregamos aceite a una olla y salteamos los champiñones por unos 5 minutos con un poco de sal y pimienta. Luego, agregamos la quinoa a la olla, sofreímos por un par de minutos y finalmente agregamos 1 lt. de agua hervida. Cocinar el quinotto entre 8 a 10 minutos a fuego medio. Para la decoración del quinotto, cortar el resto de los champiñones en rodajas muy delgadas y freírlos en un sartén con una buena cantidad de aceite hasta que estén dorados. Dejar cocinar entre 3 a 5 minutos a fuego medio. Apagar la olla donde estamos cocinando el quinotto, agregar 40 gr. de queso parmesano, 1 cucharada de mantequilla y un poquito de perejil fresco picado. Revolver, esperar que baje la temperatura y agregar los 200 ml. de crema. Emplatar agregando una cucharada de quinotto por plato y sobre ella un puñado de champiñones fritos.",
-      "description": "Una receta muy rica de champiñones..."
+      "preparation": "Comenzamos cortando 4 champiñones en cubitos y luego agregamos aceite a una olla y salteamos los champiñones por unos 5 minutos con un poco de sal y pimienta. Luego, agregamos la quinoa a la olla, sofreímos por un par de minutos y finalmente agregamos 1 lt. de agua hervida. Cocinar el quinotto entre 8 a 10 minutos a fuego medio. Para la decoración del quinotto, cortar el resto de los champiñones en rodajas muy delgadas y freírlos en un sartén con una buena cantidad de aceite hasta que estén dorados. Dejar cocinar entre 3 a 5 minutos a fuego medio. Apagar la olla donde estamos cocinando el quinotto, agregar 40 gr. de queso parmesano, 1 cucharada de mantequilla y un poquito de perejil fresco picado. Revolver, esperar que baje la temperatura y agregar los 200 ml. de crema. Emplatar agregando una cucharada de quinotto por plato y sobre ella un puñado de champiñones fritos.",
+      "prerequisites":["1 cucharada de mantequilla y perejil."]
     },
     {
+
       "id": 2,
+      "category":"vegetarian",
       "name": "Pimentón relleno de cuscús",
       "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/Piment%C3%B3n%20relleno%20de%20cusc%C3%BAs.jpg?alt=media&token=b48204f1-0c1b-4ef4-99f8-1686a6fc1c00",
-      "ingredients": [
+      "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "time":"40 Minutos",
+      "ingredients":[
         {
           "id": 5,
           "name": "Couscous Talliani 250 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FCouscous%20Talliani%20250%20gr.png?alt=media&token=ee998673-54cc-452d-bbd6-48ace51d72d4"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FCouscous%20Talliani%20250%20gr.png?alt=media&token=ee998673-54cc-452d-bbd6-48ace51d72d4",
+          "cost": 2.99
+        }, 
         {
           "id": 6,
           "name": "Sofrito Frutos del Maipo 150 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FSofrito%20Frutos%20del%20Maipo%20150%20gr.png?alt=media&token=ebb6c37e-55c0-4b7f-978d-da5eb4b574c1"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FSofrito%20Frutos%20del%20Maipo%20150%20gr.png?alt=media&token=ebb6c37e-55c0-4b7f-978d-da5eb4b574c1",
+          "cost": 2.99
+        }, 
         {
           "id": 7,
           "name": "Salsa natural Unimarc B 200 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932",
+          "cost": 2.99
+        }, 
         {
           "id": 8,
           "name": "Caja huevo grande blanco Unimarc 6 un.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b"
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b",
+          "cost": 2.99
         },
         {
           "id": 9,
           "name": "Pimentón verde 1 un.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FPiment%C3%B3n%20verde.png?alt=media&token=eff22fc9-2ae8-4184-b795-0ff783f85329"
-        }
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FPiment%C3%B3n%20verde.png?alt=media&token=eff22fc9-2ae8-4184-b795-0ff783f85329",
+          "cost": 2.99
+        }                
       ],
-      "Preparation": "Comenzamos lavando nuestros 2 pimentones y los partimos por la mitad, le sacamos las semillas y los raspamos con una cuchara por el centro. Llevamos al horno por 10 minutos a 180°. En un sartén incorporamos un poco de aceite de oliva y agregamos los 150 grs. de sofrito, 100 grs. de la salsa de tomate y revolvemos para formar una salsa. Salpimentamos e incorporamos ½ taza de agua. Si quieres puedes agregar una cucharada de azúcar para bajarle la acidez a la salsa de tomate. En un bowl, agregamos 4 cucharadas de la salsa a los 250 grs. de cuscús y 1 taza y ½ de agua hervida. Tapamos el bowl con papel de plástico por 5 minutos. Con un tenedor vamos soltando el cuscús para que quede bien graneado. Dejamos una taza reservada y al resto le agregamos dos cucharadas más de la salsa de tomate para darle color. Luego rellenamos nuestros pimentones con esta mezcla. Cortamos el tomate en cuadritos y luego le agregamos un poco de ralladura de limón y lo mezclamos con la taza de cuscús que habíamos reservado para formar una pequeña ensalada. Para emplatar, añadimos un poco de la salsa de tomate en el centro de los platos, y encima agregamos una capa de la ensalada de cuscús con tomate. A un lado colocamos los pimentones rellenos y sobre cada uno de ellos montamos 1 huevo frito en agua.",
-      "description": "Una receta muy rica de pimentones..."
-
+      "preparation": "Comenzamos lavando nuestros 2 pimentones y los partimos por la mitad, le sacamos las semillas y los raspamos con una cuchara por el centro. Llevamos al horno por 10 minutos a 180°. En un sartén incorporamos un poco de aceite de oliva y agregamos los 150 grs. de sofrito, 100 grs. de la salsa de tomate y revolvemos para formar una salsa. Salpimentamos e incorporamos ½ taza de agua. Si quieres puedes agregar una cucharada de azúcar para bajarle la acidez a la salsa de tomate. En un bowl, agregamos 4 cucharadas de la salsa a los 250 grs. de cuscús y 1 taza y ½ de agua hervida. Tapamos el bowl con papel de plástico por 5 minutos. Con un tenedor vamos soltando el cuscús para que quede bien graneado. Dejamos una taza reservada y al resto le agregamos dos cucharadas más de la salsa de tomate para darle color. Luego rellenamos nuestros pimentones con esta mezcla. Cortamos el tomate en cuadritos y luego le agregamos un poco de ralladura de limón y lo mezclamos con la taza de cuscús que habíamos reservado para formar una pequeña ensalada. Para emplatar, añadimos un poco de la salsa de tomate en el centro de los platos, y encima agregamos una capa de la ensalada de cuscús con tomate. A un lado colocamos los pimentones rellenos y sobre cada uno de ellos montamos 1 huevo frito en agua.",
+      "pre-requisites":["1 cucharada de mantequilla y perejil."]
     },
     {
       "id": 3,
+      "category":"vegetarian",
       "name": "Charquicán Vegetariano",
       "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/Charquic%C3%A1n%20Vegetariano.jpg?alt=media&token=2d94f00f-0c6a-4a4a-a21d-282509333027",
-      "ingredients": [
+      "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "ingredients":[
         {
           "id": 10,
           "name": "Ensalada primavera Frutos del Maipo 500 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FEnsalada%20primavera%20Frutos%20del%20Maipo%20500%20gr.png?alt=media&token=7fd436a1-1edc-4cf0-80d7-368d26a87db3"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FEnsalada%20primavera%20Frutos%20del%20Maipo%20500%20gr.png?alt=media&token=7fd436a1-1edc-4cf0-80d7-368d26a87db3",
+          "cost": 2.99
+        }, 
         {
           "id": 11,
           "name": "Acelga Bolsa 500 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Champi%C3%B1%C3%B3n%20bandeja%20200gr.png?alt=media&token=38760336-9a14-49be-ae8b-f4a646662f7c"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Champi%C3%B1%C3%B3n%20bandeja%20200gr.png?alt=media&token=38760336-9a14-49be-ae8b-f4a646662f7c",
+          "cost": 2.99
+        }, 
         {
           "id": 12,
           "name": "Huevo blanco grande Unimarc 6 un.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932",
+          "cost": 2.99
+        }, 
         {
           "id": 13,
           "name": "Papa granel kg. 2 un.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FPapa%20granel.png?alt=media&token=bd33309b-437b-431c-93c3-250def34bf8a"
-        }
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FPapa%20granel.png?alt=media&token=bd33309b-437b-431c-93c3-250def34bf8a",
+          "cost": 2.99
+        }                
       ],
-      "Preparation": "Pelar y posteriormente cortar 2 papas en cubitos pequeños e incorporarlas en un pocillo con agua y un poco de sal. Para darle más sabor al charquicán, se recomienda preparar un caldo de verduras con los ingredientes que tengas en casa. Puede ser con una cebolla, acelga, y especias a gusto. Dejar cocinar las verduras en una olla con agua hirviendo por 10 minutos a 15 minutos. En otra olla aparte, calentar un poco de aceite y cocinar ½ cebolla picada en cubitos por 5 minutos a fuego medio. Incorporar las papas y dejar cocer durante 25 minutos. Cortar el tallo de la acelga en pequeños trozos y luego añadirlos a la olla de nuestro sofrito junto con las papas y la cebolla. Picar una hoja de acelga en tiras delgadas y reservarla. Una vez cocinadas las papas, incorporar la primavera de verduras y el caldo a la olla. Agregar las hojas de acelga reservadas anteriormente con un toque de ají de color y revolver la mezcla con un cucharón. En un sartén, verter un poco de agua hervida y luego incorporar cuidadosamente los huevos para cocerlos al agua. Una vez listos los huevos, agregar una porción de charquicán sobre los platos y en la superficie añadir el huevo.",
-      "description": "Una receta muy rica de charquicán..."
-
+      "preparation": "Pelar y posteriormente cortar 2 papas en cubitos pequeños e incorporarlas en un pocillo con agua y un poco de sal. Para darle más sabor al charquicán, se recomienda preparar un caldo de verduras con los ingredientes que tengas en casa. Puede ser con una cebolla, acelga, y especias a gusto. Dejar cocinar las verduras en una olla con agua hirviendo por 10 minutos a 15 minutos. En otra olla aparte, calentar un poco de aceite y cocinar ½ cebolla picada en cubitos por 5 minutos a fuego medio. Incorporar las papas y dejar cocer durante 25 minutos. Cortar el tallo de la acelga en pequeños trozos y luego añadirlos a la olla de nuestro sofrito junto con las papas y la cebolla. Picar una hoja de acelga en tiras delgadas y reservarla. Una vez cocinadas las papas, incorporar la primavera de verduras y el caldo a la olla. Agregar las hojas de acelga reservadas anteriormente con un toque de ají de color y revolver la mezcla con un cucharón. En un sartén, verter un poco de agua hervida y luego incorporar cuidadosamente los huevos para cocerlos al agua. Una vez listos los huevos, agregar una porción de charquicán sobre los platos y en la superficie añadir el huevo."
     },
     {
       "id": 4,
+      "category":"vegetarian",
       "name": "Ratatouille Verduras Guisadas",
       "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/Ratatouille%20Verduras%20Guisadas.jpg?alt=media&token=000e8f42-3dfd-434d-9bf2-0a6a470d7111",
-      "ingredients": [
+      "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "ingredients":[
         {
           "id": 14,
           "name": "Mix de pimentones Frutos del Maipo 150 g.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinoa%20Carozzi%20250%20gr.png?alt=media&token=09759f08-f40b-471f-b1a9-53606eb43b2e"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinoa%20Carozzi%20250%20gr.png?alt=media&token=09759f08-f40b-471f-b1a9-53606eb43b2e",
+          "cost": 2.99
+        }, 
         {
           "id": 15,
           "name": "Zapallo Italiano Unidad.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FZapallo%20Italiano%20Unidad.png?alt=media&token=1f1c7f07-3393-416c-bed7-449f23a9283e"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FZapallo%20Italiano%20Unidad.png?alt=media&token=1f1c7f07-3393-416c-bed7-449f23a9283e",
+          "cost": 2.99
+        }, 
         {
           "id": 16,
           "name": "Tomate Primera Granel kg.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FTomate.png?alt=media&token=4be8c4a6-8cce-4978-851f-904f22ee2017"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FTomate.png?alt=media&token=4be8c4a6-8cce-4978-851f-904f22ee2017",
+          "cost": 2.99
+        }, 
         {
           "id": 17,
           "name": "Berenjena Granel unidad.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FBerenjena.png?alt=media&token=7a89893a-089e-451b-a699-d1076beccc0c"
-        }
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FBerenjena.png?alt=media&token=7a89893a-089e-451b-a699-d1076beccc0c",
+          "cost": 2.99
+        }         
       ],
-      "Preparation": "Partimos cortando en láminas delgadas 1 berenjena, 2 zapallos italianos y 2 tomates. Luego sobre una asadera ordenarlas intercaladamente. Picar el mix de pimentones y mezclarlo con un diente de ajo trozado, orégano y sal. Inmediatamente saltear la mezcla en un sartén con aceite de oliva a fuego medio. Agregar la mezcla de pimentones para luego seguir con la salsa de tomate en la asadera con las láminas. A continuación, cubrir la preparación con papel alusa para luego llevar al horno durante 30 a 35 minutos a 180°. Retirar las verduras guisadas del horno y servirlas en cada uno de los platos.",
-      "description": "Una receta muy rica de ratatouille..."
-
+      "preparation": "Partimos cortando en láminas delgadas 1 berenjena, 2 zapallos italianos y 2 tomates. Luego sobre una asadera ordenarlas intercaladamente. Picar el mix de pimentones y mezclarlo con un diente de ajo trozado, orégano y sal. Inmediatamente saltear la mezcla en un sartén con aceite de oliva a fuego medio. Agregar la mezcla de pimentones para luego seguir con la salsa de tomate en la asadera con las láminas. A continuación, cubrir la preparación con papel alusa para luego llevar al horno durante 30 a 35 minutos a 180°. Retirar las verduras guisadas del horno y servirlas en cada uno de los platos."
     },
     {
       "id": 5,
+      "category":"vegetarian",
       "name": "Pizza con Masa de Coliflor",
       "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/Pizza%20con%20Masa%20de%20Coliflor.jpg?alt=media&token=285cba91-0491-4b2f-8fcd-228100fe64f3",
-      "ingredients": [
+      "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "ingredients":[
         {
           "id": 18,
           "name": "Queso laminado Gauda Unimarc Granel 250 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinoa%20Carozzi%20250%20gr.png?alt=media&token=09759f08-f40b-471f-b1a9-53606eb43b2e"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinoa%20Carozzi%20250%20gr.png?alt=media&token=09759f08-f40b-471f-b1a9-53606eb43b2e",
+          "cost": 2.99
+        }, 
         {
           "id": 19,
           "name": "Salsa natural Unimarc B 200 g.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Champi%C3%B1%C3%B3n%20bandeja%20200gr.png?alt=media&token=38760336-9a14-49be-ae8b-f4a646662f7c"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Champi%C3%B1%C3%B3n%20bandeja%20200gr.png?alt=media&token=38760336-9a14-49be-ae8b-f4a646662f7c",
+          "cost": 2.99
+        }, 
         {
           "id": 20,
           "name": "Tomate primera granel kg. 2 tomates",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932",
+          "cost": 2.99
+        }, 
         {
           "id": 21,
           "name": "Cebolla granel kg. 1 Cebolla",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FCebolla.png?alt=media&token=d9cf27ba-e07a-4a01-8e06-a1ba4f011238"
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FCebolla.png?alt=media&token=d9cf27ba-e07a-4a01-8e06-a1ba4f011238",
+          "cost": 2.99
         },
         {
           "id": 22,
           "name": "Coliflor envasada 1 coliflor envasada.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FColiflor.png?alt=media&token=3233b74a-760c-4085-b413-1e9f6d0bb689"
-        }
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FColiflor.png?alt=media&token=3233b74a-760c-4085-b413-1e9f6d0bb689",
+          "cost": 2.99
+        }              
       ],
-      "Preparation": "Comenzamos raspando la coliflor con un rallador sobre una fuente. A continuación, añadimos aceite en un sartén caliente y cocinamos los trozos de coliflor a fuego medio por 10 minutos. Una vez cocinada la coliflor, dejarla en un bowl y mezclarla con los 2 huevos, un poco de orégano y luego revolver todo hasta formar una pasta. A continuación, cubrir con papel film la superficie de una lata de horno, añadir un poco de aceite y espolvorear harina para que no se pegue, luego incorporar la pasta. Llevar al horno para pre hornear durante 15 minutos a 180°. Mientras se cocina la masa, cortar los tomates y la cebolla en rodajas. Incorporar las rodajas de cebolla en un sartén con aceite y saltearlas por 8 minutos a fuego medio. Retirar la masa del horno y añadir salsa de tomate natural esparciéndola por sobre la superficie. Agregar láminas de queso laminado a gusto, rodajas de tomate, cebolla caramelizada y un poco de orégano. Introducir la pizza al horno por última vez durante 10 minutos a 180°. Sacar del horno la pizza de coliflor y luego separar cuidadosamente el papel film. Por último, cortar en trozos y montar los platos.",
-      "description": "Una receta muy rica de pizza..."
-
+      "preparation": "Comenzamos raspando la coliflor con un rallador sobre una fuente. A continuación, añadimos aceite en un sartén caliente y cocinamos los trozos de coliflor a fuego medio por 10 minutos. Una vez cocinada la coliflor, dejarla en un bowl y mezclarla con los 2 huevos, un poco de orégano y luego revolver todo hasta formar una pasta. A continuación, cubrir con papel film la superficie de una lata de horno, añadir un poco de aceite y espolvorear harina para que no se pegue, luego incorporar la pasta. Llevar al horno para pre hornear durante 15 minutos a 180°. Mientras se cocina la masa, cortar los tomates y la cebolla en rodajas. Incorporar las rodajas de cebolla en un sartén con aceite y saltearlas por 8 minutos a fuego medio. Retirar la masa del horno y añadir salsa de tomate natural esparciéndola por sobre la superficie. Agregar láminas de queso laminado a gusto, rodajas de tomate, cebolla caramelizada y un poco de orégano. Introducir la pizza al horno por última vez durante 10 minutos a 180°. Sacar del horno la pizza de coliflor y luego separar cuidadosamente el papel film. Por último, cortar en trozos y montar los platos."
     },
     {
       "id": 6,
+      "category":"vegetarian",
       "name": "Veggie Burguer",
       "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinotto%20de%20Champi%C3%B1ones.jpg?alt=media&token=d8a2e5c6-bfbc-4201-824e-617a87ac3d65",
-      "ingredients": [
+      "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "ingredients":[
         {
           "id": 23,
           "name": "Tomates 2 un.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FTomate.png?alt=media&token=4be8c4a6-8cce-4978-851f-904f22ee2017"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FTomate.png?alt=media&token=4be8c4a6-8cce-4978-851f-904f22ee2017",
+          "cost": 2.99
+        }, 
         {
           "id": 24,
           "name": "Porotos negros congelados 350 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Champi%C3%B1%C3%B3n%20bandeja%20200gr.png?alt=media&token=38760336-9a14-49be-ae8b-f4a646662f7c"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Champi%C3%B1%C3%B3n%20bandeja%20200gr.png?alt=media&token=38760336-9a14-49be-ae8b-f4a646662f7c",
+          "cost": 2.99
+        }, 
         {
           "id": 25,
           "name": "Sofrito Frutos del Maipo 150 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FSofrito%20Frutos%20del%20Maipo%20150%20gr.png?alt=media&token=ebb6c37e-55c0-4b7f-978d-da5eb4b574c1"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FSofrito%20Frutos%20del%20Maipo%20150%20gr.png?alt=media&token=ebb6c37e-55c0-4b7f-978d-da5eb4b574c1",
+          "cost": 2.99
+        }, 
         {
           "id": 26,
           "name": "Espinaca, bolsa 500 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b"
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b",
+          "cost": 2.99
         },
         {
           "id": 27,
           "name": "Papas 3 un.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FPapa%20granel.png?alt=media&token=bd33309b-437b-431c-93c3-250def34bf8a"
-        }
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FPapa%20granel.png?alt=media&token=bd33309b-437b-431c-93c3-250def34bf8a",
+          "cost": 2.99
+        }              
       ],
-      "Preparation": "Para empezar, procesar los porotos negros que están previamente cocidos. Enseguida, cocinar el sofrito en una olla con un poco de aceite y sal. Por último, mezclar el sofrito en un bowl junto a los porotos negros y revolver lentamente. Moldear la mezcla en forma de hamburguesas y ponerlas en una lata previamente aceitada. Llevarlas al horno por 15 minutos a 20 °C. Calentar el pan a gusto. Con ayuda de un pelador, rebanar las papas en rodajas muy delgadas para luego dorarlas en el sartén con aceite hirviendo. Cortar la espinaca y los tomates en rodajas. Cocinar la espinaca por unos minutos en un sartén con un poco de aceite y aliños a gusto. Retirar las hamburguesas del horno, agregarlas al pan caliente y añadir dos rodajas de tomate y un poco de espinaca por hamburguesa. Finalmente adicionar las papas chips como acompañamiento.",
-      "description": "Una receta muy rica de champiñones..."
+      "preparation": "Para empezar, procesar los porotos negros que están previamente cocidos. Enseguida, cocinar el sofrito en una olla con un poco de aceite y sal. Por último, mezclar el sofrito en un bowl junto a los porotos negros y revolver lentamente. Moldear la mezcla en forma de hamburguesas y ponerlas en una lata previamente aceitada. Llevarlas al horno por 15 minutos a 20 °C. Calentar el pan a gusto. Con ayuda de un pelador, rebanar las papas en rodajas muy delgadas para luego dorarlas en el sartén con aceite hirviendo. Cortar la espinaca y los tomates en rodajas. Cocinar la espinaca por unos minutos en un sartén con un poco de aceite y aliños a gusto. Retirar las hamburguesas del horno, agregarlas al pan caliente y añadir dos rodajas de tomate y un poco de espinaca por hamburguesa. Finalmente adicionar las papas chips como acompañamiento."
     },
     {
       "id": 7,
+      "category":"vegetarian",
       "name": "Fetuccini Casero de Espinaca",
       "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinotto%20de%20Champi%C3%B1ones.jpg?alt=media&token=d8a2e5c6-bfbc-4201-824e-617a87ac3d65",
-      "ingredients": [
+      "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "ingredients":[
         {
           "id": 28,
           "name": "Harina sin polvos de hornear Unimarc B, 1kg, 400 grs. de Harina",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinoa%20Carozzi%20250%20gr.png?alt=media&token=09759f08-f40b-471f-b1a9-53606eb43b2e"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinoa%20Carozzi%20250%20gr.png?alt=media&token=09759f08-f40b-471f-b1a9-53606eb43b2e",
+          "cost": 2.99
+        }, 
         {
           "id": 29,
           "name": "1 unidad de Espinaca Espinaca bolsa",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Champi%C3%B1%C3%B3n%20bandeja%20200gr.png?alt=media&token=38760336-9a14-49be-ae8b-f4a646662f7c"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Champi%C3%B1%C3%B3n%20bandeja%20200gr.png?alt=media&token=38760336-9a14-49be-ae8b-f4a646662f7c",
+          "cost": 2.99
+        }, 
         {
           "id": 30,
           "name": "Sofrito con ajo Minuto Verde 150 grs.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932",
+          "cost": 2.99
+        }, 
         {
           "id": 31,
           "name": "Queso rallado Parmesano Colun 40 grs.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FQueso%20rallado%20Parmesano%20Colun%2040.png?alt=media&token=53b50dca-586d-4fa5-97be-fcca6f235a36"
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FQueso%20rallado%20Parmesano%20Colun%2040.png?alt=media&token=53b50dca-586d-4fa5-97be-fcca6f235a36",
+          "cost": 2.99
         },
         {
           "id": 32,
           "name": "Papas 3 un.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FPapa%20granel.png?alt=media&token=bd33309b-437b-431c-93c3-250def34bf8a"
-        }
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FPapa%20granel.png?alt=media&token=bd33309b-437b-431c-93c3-250def34bf8a",
+          "cost": 2.99
+        }              
       ],
-      "Preparation": "Para empezar, procesar los porotos negros que están previamente cocidos. Enseguida, cocinar el sofrito en una olla con un poco de aceite y sal. Por último, mezclar el sofrito en un bowl junto a los porotos negros y Comenzamos blanqueando la espinaca durante 3 minutos en una olla con agua hervida. Una vez que esté blanda, retiramos para luego introducir a la procesadora y obtener el puré para la masa. Dejar un poco de espinaca cruda reservada. Incorporar la harina dentro de un bowl y darle forma de volcán, luego agregar los dos huevos en el centro junto con el puré de espinaca. Amasar hasta tener una masa consistente que no se pegue en los dedos. Refrigerar la masa por 15 minutos. Retiramos la masa del refrigerador y la estiramos en el mesón con un uslero, enseguida cortamos la masa aproximadamente de 1 cm de grosor con un cuchillo. Agregar los fetuccinis en una olla con agua hervida y sal de 3 a 4 minutos. Luego retirar una vez que la pasta esté cocida. En un sartén con aceite caliente, freír el sofrito y agregar las hojas de espinaca que habíamos reservado, incluyendo un poco de caldo de cocción del fetuccini. Mezclar y salpimentar al gusto. En el mismo sartén, incorporamos los fetuccinis cocidos y volvemos a revolver. Para el montaje de los platos, verter una porción de fetuccinis, salpimentar y agregar queso rallado para la decoración.revolver lentamente. Moldear la mezcla en forma de hamburguesas y ponerlas en una lata previamente aceitada. Llevarlas al horno por 15 minutos a 20 °C. Calentar el pan a gusto. Con ayuda de un pelador, rebanar las papas en rodajas muy delgadas para luego dorarlas en el sartén con aceite hirviendo. Cortar la espinaca y los tomates en rodajas. Cocinar la espinaca por unos minutos en un sartén con un poco de aceite y aliños a gusto. Retirar las hamburguesas del horno, agregarlas al pan caliente y añadir dos rodajas de tomate y un poco de espinaca por hamburguesa. Finalmente adicionar las papas chips como acompañamiento."
+      "preparation": "Para empezar, procesar los porotos negros que están previamente cocidos. Enseguida, cocinar el sofrito en una olla con un poco de aceite y sal. Por último, mezclar el sofrito en un bowl junto a los porotos negros y Comenzamos blanqueando la espinaca durante 3 minutos en una olla con agua hervida. Una vez que esté blanda, retiramos para luego introducir a la procesadora y obtener el puré para la masa. Dejar un poco de espinaca cruda reservada. Incorporar la harina dentro de un bowl y darle forma de volcán, luego agregar los dos huevos en el centro junto con el puré de espinaca. Amasar hasta tener una masa consistente que no se pegue en los dedos. Refrigerar la masa por 15 minutos. Retiramos la masa del refrigerador y la estiramos en el mesón con un uslero, enseguida cortamos la masa aproximadamente de 1 cm de grosor con un cuchillo. Agregar los fetuccinis en una olla con agua hervida y sal de 3 a 4 minutos. Luego retirar una vez que la pasta esté cocida. En un sartén con aceite caliente, freír el sofrito y agregar las hojas de espinaca que habíamos reservado, incluyendo un poco de caldo de cocción del fetuccini. Mezclar y salpimentar al gusto. En el mismo sartén, incorporamos los fetuccinis cocidos y volvemos a revolver. Para el montaje de los platos, verter una porción de fetuccinis, salpimentar y agregar queso rallado para la decoración.revolver lentamente. Moldear la mezcla en forma de hamburguesas y ponerlas en una lata previamente aceitada. Llevarlas al horno por 15 minutos a 20 °C. Calentar el pan a gusto. Con ayuda de un pelador, rebanar las papas en rodajas muy delgadas para luego dorarlas en el sartén con aceite hirviendo. Cortar la espinaca y los tomates en rodajas. Cocinar la espinaca por unos minutos en un sartén con un poco de aceite y aliños a gusto. Retirar las hamburguesas del horno, agregarlas al pan caliente y añadir dos rodajas de tomate y un poco de espinaca por hamburguesa. Finalmente adicionar las papas chips como acompañamiento."
     },
     {
-      "id": 8,
+      "id":8,
+      "category":"vegetarian",
       "name": "Croquetas de Quinoa con ensalada de tomate",
       "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinotto%20de%20Champi%C3%B1ones.jpg?alt=media&token=d8a2e5c6-bfbc-4201-824e-617a87ac3d65",
-      "ingredients": [
+      "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "ingredients":[
         {
           "id": 33,
           "name": "Quinoa Carozzi 250 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FQuinoa%20Carozzi%20250.png?alt=media&token=c2ed3a21-0762-4b34-b8b7-e4815d2f0dcd"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FQuinoa%20Carozzi%20250.png?alt=media&token=c2ed3a21-0762-4b34-b8b7-e4815d2f0dcd",
+          "cost": 2.99
+        }, 
         {
           "id": 34,
           "name": "Queso Ranco T-10 Colun 200 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Champi%C3%B1%C3%B3n%20bandeja%20200gr.png?alt=media&token=38760336-9a14-49be-ae8b-f4a646662f7c"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Champi%C3%B1%C3%B3n%20bandeja%20200gr.png?alt=media&token=38760336-9a14-49be-ae8b-f4a646662f7c",
+          "cost": 2.99
+        }, 
         {
           "id": 35,
           "name": "Sofrito con ajo Minuto Verde 150 grs.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932",
+          "cost": 2.99
+        }, 
         {
           "id": 36,
           "name": "Tomate primera Granel.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FTomate.png?alt=media&token=4be8c4a6-8cce-4978-851f-904f22ee2017"
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FTomate.png?alt=media&token=4be8c4a6-8cce-4978-851f-904f22ee2017",
+          "cost": 2.99
         }
       ],
-      "Preparation": "Partimos incorporando ¼ de quinoa en la procesadora para hacer harina de quinoa, luego vertemos el resto en una olla para cocer a fuego medio por aproximadamente 10 a 12 minutos. Una vez que esté cocida la retiramos del fuego y la colamos. Agregar aceite al sartén y freír los 150 grs. de sofrito (añadir agua de forma parcelada mientras se cocina). Luego agregamos la quinoa ya cocida y revolvemos. Dejar reposar esta mezcla por aproximadamente 15 minutos hasta que se enfríe. Continuamos mezclando la quinoa cocida con los huevos y luego con las manos moldeamos la mezcla en forma de bolitas agregando un trozo pequeño de queso en el centro de la croqueta. Luego, las pasamos por harina para que queden consistentes y no se desarmen. Calentar las croquetas listas en el horno por 15 minutos a 200°C. Para la ensalada, cortar el perejil y el tomate en cubitos pequeños, agregar sal y aceite vegetal a gusto. Reservar. Para la decoración, haremos un pesto de perejil. Agregamos un poco de perejil en la procesadora con una pizca de aceite de oliva, sal, pimienta y un poco de agua para aumentar su solvencia. Reservamos. Finalizamos con el montaje de los platos: dos croquetas en el centro junto con la ensalada de tomate y encima el pesto de perejil."
+      "preparation": "Partimos incorporando ¼ de quinoa en la procesadora para hacer harina de quinoa, luego vertemos el resto en una olla para cocer a fuego medio por aproximadamente 10 a 12 minutos. Una vez que esté cocida la retiramos del fuego y la colamos. Agregar aceite al sartén y freír los 150 grs. de sofrito (añadir agua de forma parcelada mientras se cocina). Luego agregamos la quinoa ya cocida y revolvemos. Dejar reposar esta mezcla por aproximadamente 15 minutos hasta que se enfríe. Continuamos mezclando la quinoa cocida con los huevos y luego con las manos moldeamos la mezcla en forma de bolitas agregando un trozo pequeño de queso en el centro de la croqueta. Luego, las pasamos por harina para que queden consistentes y no se desarmen. Calentar las croquetas listas en el horno por 15 minutos a 200°C. Para la ensalada, cortar el perejil y el tomate en cubitos pequeños, agregar sal y aceite vegetal a gusto. Reservar. Para la decoración, haremos un pesto de perejil. Agregamos un poco de perejil en la procesadora con una pizca de aceite de oliva, sal, pimienta y un poco de agua para aumentar su solvencia. Reservamos. Finalizamos con el montaje de los platos: dos croquetas en el centro junto con la ensalada de tomate y encima el pesto de perejil."
     },
     {
       "id": 9,
+      "category":"vegetarian",
       "name": "Crema de Zapallo con Cebolla Caramelizada",
       "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinotto%20de%20Champi%C3%B1ones.jpg?alt=media&token=d8a2e5c6-bfbc-4201-824e-617a87ac3d65",
-      "ingredients": [
+      "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "ingredients":[
         {
           "id": 37,
           "name": "Zapallo Camote envasado 400 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinoa%20Carozzi%20250%20gr.png?alt=media&token=09759f08-f40b-471f-b1a9-53606eb43b2e"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinoa%20Carozzi%20250%20gr.png?alt=media&token=09759f08-f40b-471f-b1a9-53606eb43b2e",
+          "cost": 2.99
+        }, 
         {
           "id": 38,
           "name": "Cebolla granel 2 unidades",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FCebolla.png?alt=media&token=d9cf27ba-e07a-4a01-8e06-a1ba4f011238"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FCebolla.png?alt=media&token=d9cf27ba-e07a-4a01-8e06-a1ba4f011238",
+          "cost": 2.99
+        }, 
         {
           "id": 39,
           "name": "Leche larga vida Colun s/tapa 500 cc.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932",
+          "cost": 2.99
+        }, 
         {
           "id": 40,
           "name": "Queso rallado parmesano Quillayes 40gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FQueso%20rallado%20parmesano%20Quillayes%2040gr.png?alt=media&token=cfe954bd-0474-4d68-a004-a2e132c3bb65"
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FQueso%20rallado%20parmesano%20Quillayes%2040gr.png?alt=media&token=cfe954bd-0474-4d68-a004-a2e132c3bb65",
+          "cost": 2.99
         }
       ],
-      "Preparation": "Sacarle la cáscara al zapallo. Después trozar en cuadros pequeños para facilitar su cocción. Poner el zapallo en una olla caliente y salpimentar. Agregar agua hervida a la olla y tapar por 8 a 10 minutos, hasta que el zapallo quede blando. Cortar cebolla. Extraer el centro de la cebolla y separar en gajos. Luego, ponerlas en una sartén con aceite caliente. Esperamos a que se dore y reservamos esta cebolla para decoración. El resto de la cebolla, la cortamos en pluma y la vertemos en una sartén con aceite caliente hasta caramelizarla. Cortamos la marraqueta del día anterior en trozos pequeños para hacer los crutones. Los ponemos en una bandeja de vidrio, le agregamos aceite, sal, pimienta y hierbas que tengamos en la casa como tomillo. Llevamos al horno a 180 grados por unos 5 minutos o hasta que estén dorados. Sacamos el zapallo de la olla y lo ponemos en la procesadora. Agregamos leche y procesamos hasta que forme una crema. Luego, volvemos a poner la mezcla en la olla para calentarla. Para servir, vertemos la crema en un bowl, le agregamos la cebolla caramelizada, los crutones, un poco de queso parmesano y el centro de la cebolla que reservamos para decorar. ¡Y ya puedes disfrutar de esta rica receta vegetariana!"
+      "preparation": "Sacarle la cáscara al zapallo. Después trozar en cuadros pequeños para facilitar su cocción. Poner el zapallo en una olla caliente y salpimentar. Agregar agua hervida a la olla y tapar por 8 a 10 minutos, hasta que el zapallo quede blando. Cortar cebolla. Extraer el centro de la cebolla y separar en gajos. Luego, ponerlas en una sartén con aceite caliente. Esperamos a que se dore y reservamos esta cebolla para decoración. El resto de la cebolla, la cortamos en pluma y la vertemos en una sartén con aceite caliente hasta caramelizarla. Cortamos la marraqueta del día anterior en trozos pequeños para hacer los crutones. Los ponemos en una bandeja de vidrio, le agregamos aceite, sal, pimienta y hierbas que tengamos en la casa como tomillo. Llevamos al horno a 180 grados por unos 5 minutos o hasta que estén dorados. Sacamos el zapallo de la olla y lo ponemos en la procesadora. Agregamos leche y procesamos hasta que forme una crema. Luego, volvemos a poner la mezcla en la olla para calentarla. Para servir, vertemos la crema en un bowl, le agregamos la cebolla caramelizada, los crutones, un poco de queso parmesano y el centro de la cebolla que reservamos para decorar. ¡Y ya puedes disfrutar de esta rica receta vegetariana!"
     },
     {
       "id": 10,
+      "category":"vegetarian",
       "name": "Croquetas de Espinaca con Puré",
       "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinotto%20de%20Champi%C3%B1ones.jpg?alt=media&token=d8a2e5c6-bfbc-4201-824e-617a87ac3d65",
-      "ingredients": [
+      "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "ingredients":[
         {
           "id": 41,
           "name": "Espinacas 1 bolsa",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinoa%20Carozzi%20250%20gr.png?alt=media&token=09759f08-f40b-471f-b1a9-53606eb43b2e"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinoa%20Carozzi%20250%20gr.png?alt=media&token=09759f08-f40b-471f-b1a9-53606eb43b2e",
+          "cost": 2.99
+        }, 
         {
           "id": 42,
           "name": "Puré de papas Unimarc instantáneo, caja 125 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Champi%C3%B1%C3%B3n%20bandeja%20200gr.png?alt=media&token=38760336-9a14-49be-ae8b-f4a646662f7c"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Champi%C3%B1%C3%B3n%20bandeja%20200gr.png?alt=media&token=38760336-9a14-49be-ae8b-f4a646662f7c",
+          "cost": 2.99
+        }, 
         {
           "id": 43,
           "name": "Sofrito Frutos del Maipo, 2 unidades 150 gr. c/u",
-          "img": "hhttps://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FSofrito%20Frutos%20del%20Maipo.png?alt=media&token=0eb38938-c8b5-4b17-9f1b-c443aa74ccff"
-        },
+          "img": "hhttps://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FSofrito%20Frutos%20del%20Maipo.png?alt=media&token=0eb38938-c8b5-4b17-9f1b-c443aa74ccff",
+          "cost": 2.99
+        }, 
         {
           "id": 44,
           "name": "Queso ranco T-10 Colun 200 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b"
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b",
+          "cost": 2.99
         },
         {
           "id": 45,
           "name": "Marraquetas 2 un.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FMarraquetas.png?alt=media&token=86e655ed-0a1b-43e8-bb83-3bb7557b74af"
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FMarraquetas.png?alt=media&token=86e655ed-0a1b-43e8-bb83-3bb7557b74af",
+          "cost": 2.99
         }
       ],
-      "Preparation": "En un sartén con aceite, freír el sofrito y salpimentar. Una vez cocinado, reservar. Cortar la espinaca fina y mezclar con el sofrito en una budinera. Reservar un poco de sofrito para cocinar el puré. Luego, cortar la marraqueta en porciones pequeñas, dejarlo en una budinera rociados con aceite de oliva y hornearlo a 160 °C. Cuando estén dorados, retirar del horno y pasar por la licuadora para hacer el pan rallado. Para preparar el puré, mezclar dos tazas de agua hervida y una taza de leche en una olla. Agregar el puré en polvo, un poco del sofrito para darle color, salpimentar y revolver. Para cocinar las croquetas, cortar el queso en cuadritos pequeños y añadirlo a la espinaca. Luego, verter una taza de leche con un poco de harina y sal en un pocillo, mezclar hasta que no queden grumos. Vaciar la mezcla en la espinaca y revolver. Con ésta ya lista, comenzar a formar las croquetas con las manos. En otro pocillo, batir un huevo con una pizca de sal y reservar. Cuando las croquetas estén formadas se pasan primero por el huevo y luego por el pan rallado, que ya teníamos reservado. Finalmente se fríen en un sartén con aceite caliente. Retirar las croquetas del aceite y dejarlas en un plato con papel absorbente. Para montar los platos, poner una porción de puré al lado las croquetas y estamos listos para disfrutar de una exquisita preparación en familia."
+      "preparation": "En un sartén con aceite, freír el sofrito y salpimentar. Una vez cocinado, reservar. Cortar la espinaca fina y mezclar con el sofrito en una budinera. Reservar un poco de sofrito para cocinar el puré. Luego, cortar la marraqueta en porciones pequeñas, dejarlo en una budinera rociados con aceite de oliva y hornearlo a 160 °C. Cuando estén dorados, retirar del horno y pasar por la licuadora para hacer el pan rallado. Para preparar el puré, mezclar dos tazas de agua hervida y una taza de leche en una olla. Agregar el puré en polvo, un poco del sofrito para darle color, salpimentar y revolver. Para cocinar las croquetas, cortar el queso en cuadritos pequeños y añadirlo a la espinaca. Luego, verter una taza de leche con un poco de harina y sal en un pocillo, mezclar hasta que no queden grumos. Vaciar la mezcla en la espinaca y revolver. Con ésta ya lista, comenzar a formar las croquetas con las manos. En otro pocillo, batir un huevo con una pizca de sal y reservar. Cuando las croquetas estén formadas se pasan primero por el huevo y luego por el pan rallado, que ya teníamos reservado. Finalmente se fríen en un sartén con aceite caliente. Retirar las croquetas del aceite y dejarlas en un plato con papel absorbente. Para montar los platos, poner una porción de puré al lado las croquetas y estamos listos para disfrutar de una exquisita preparación en familia."
     },
     {
       "id": 11,
+      "category":"vegetarian",
       "name": "Caprese de Mote",
       "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinotto%20de%20Champi%C3%B1ones.jpg?alt=media&token=d8a2e5c6-bfbc-4201-824e-617a87ac3d65",
-      "ingredients": [
+      "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "ingredients":[
         {
           "id": 46,
           "name": "500 gramos de mote",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinoa%20Carozzi%20250%20gr.png?alt=media&token=09759f08-f40b-471f-b1a9-53606eb43b2e"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinoa%20Carozzi%20250%20gr.png?alt=media&token=09759f08-f40b-471f-b1a9-53606eb43b2e",
+          "cost": 2.99
+        }, 
         {
           "id": 47,
           "name": "320 gramos de quesillo",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Champi%C3%B1%C3%B3n%20bandeja%20200gr.png?alt=media&token=38760336-9a14-49be-ae8b-f4a646662f7c"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Champi%C3%B1%C3%B3n%20bandeja%20200gr.png?alt=media&token=38760336-9a14-49be-ae8b-f4a646662f7c",
+          "cost": 2.99
+        }, 
         {
           "id": 48,
           "name": "1 paquete de albahaca",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932",
+          "cost": 2.99
+        }, 
         {
           "id": 49,
           "name": "250 gramos de mayonesa",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b"
-        }
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b",
+          "cost": 2.99
+        }       
       ],
-      "Preparation": "Cocinar el mote en una olla con agua hervida por unos 30 min y salpimentar. Una vez cocido, pasar por agua fría, para detener la cocción y reservar. En otra olla con agua caliente, blanquear la albahaca introduciéndola por unos segundos y luego colocarla en una fuente con agua con hielo. Así se mantiene el verde del vegetal. Para preparar el pesto, procesar la albahaca, tres cucharadas de aceite y una pizca de sal. Picar quesillo y el tomate en cubitos. Al tomate sacarle el centro previamente. Una vez picados, mezclar. En un bowl mezclar mote, mayonesa, pesto, cubitos de tomate y quesillo. Reposar la mezcla en el refrigerador por unos minutos y montar los platos con un molde. Con eso ya está todo listo para disfrutar de esta refrescante receta."
+      "preparation": "Cocinar el mote en una olla con agua hervida por unos 30 min y salpimentar. Una vez cocido, pasar por agua fría, para detener la cocción y reservar. En otra olla con agua caliente, blanquear la albahaca introduciéndola por unos segundos y luego colocarla en una fuente con agua con hielo. Así se mantiene el verde del vegetal. Para preparar el pesto, procesar la albahaca, tres cucharadas de aceite y una pizca de sal. Picar quesillo y el tomate en cubitos. Al tomate sacarle el centro previamente. Una vez picados, mezclar. En un bowl mezclar mote, mayonesa, pesto, cubitos de tomate y quesillo. Reposar la mezcla en el refrigerador por unos minutos y montar los platos con un molde. Con eso ya está todo listo para disfrutar de esta refrescante receta."
     },
     {
       "id": 12,
+      "category":"vegetarian",
       "name": "Zapallo Italiano Relleno",
       "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinotto%20de%20Champi%C3%B1ones.jpg?alt=media&token=d8a2e5c6-bfbc-4201-824e-617a87ac3d65",
-      "ingredients": [
+      "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "ingredients":[
         {
           "id": 50,
           "name": "Zapallos italianos grandes 2 un.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FZapallo%20Italiano%20Unidad.png?alt=media&token=1f1c7f07-3393-416c-bed7-449f23a9283e"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FZapallo%20Italiano%20Unidad.png?alt=media&token=1f1c7f07-3393-416c-bed7-449f23a9283e",
+          "cost": 2.99
+        }, 
         {
           "id": 51,
           "name": "Sofrito Frutos del maipo 150 gr. 2 un.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FSofrito%20Frutos%20del%20Maipo.png?alt=media&token=0eb38938-c8b5-4b17-9f1b-c443aa74ccff"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FSofrito%20Frutos%20del%20Maipo.png?alt=media&token=0eb38938-c8b5-4b17-9f1b-c443aa74ccff",
+          "cost": 2.99
+        }, 
         {
           "id": 52,
           "name": "Queso parmesano rallado Quillayes 40 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FQueso%20rallado%20parmesano%20Quillayes%2040gr.png?alt=media&token=cfe954bd-0474-4d68-a004-a2e132c3bb65"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FQueso%20rallado%20parmesano%20Quillayes%2040gr.png?alt=media&token=cfe954bd-0474-4d68-a004-a2e132c3bb65",
+          "cost": 2.99
+        }, 
         {
           "id": 53,
           "name": "Arroz Unimarc G2 largo delgado, bolsa 1 kg 2 tazas.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b"
-        }
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b",
+          "cost": 2.99
+        }       
       ],
-      "Preparation": "Primero preparar el arroz al curry. Para eso, agregar en una olla dos tazas de arroz, un poco de aceite, curry y revolver. Luego agregar una pizca de sal, orégano y pimienta. Agregar 4 tazas de agua hervida y cocinar por unos 15 a 20 minutos con la olla tapada a fuego lento. Cortar el zapallo italiano justo a la mitad. Con una cuchara, ir sacando toda la carne que tiene el zapallo, mientras se va raspando para darle forma. Repetir el proceso con las otras mitades. Reservar. Tomar los zapallos descarozados y llevarlos a una olla con agua hervida. Blanquearlos durante unos 10 minutos y colar. Sobre el fuego, dejar un sartén para que tome temperatura agregar el sofrito y la carne del zapallo italiano. Mezclar junto con un poco de orégano y sal. Cocinar de 5 a 10 minutos hasta que el zapallo saque textura. Agregar el queso rallado y mezclar. Sobre una lata del horno, rellenar el zapallo con la mezcla. Una vez listo y con una cuchara, acomodar el zapallo para que quede uniforme. Cocinar el zapallo relleno por 10 min. en grill a 180o grados hasta que quede gratinado. Para el montaje, colocar una mitad de zapallo italiano relleno en un plato y agregar una porción de arroz al curry. Por último, una  hojita de perejil para decorar ¡ Y listo !"
+      "preparation": "Primero preparar el arroz al curry. Para eso, agregar en una olla dos tazas de arroz, un poco de aceite, curry y revolver. Luego agregar una pizca de sal, orégano y pimienta. Agregar 4 tazas de agua hervida y cocinar por unos 15 a 20 minutos con la olla tapada a fuego lento. Cortar el zapallo italiano justo a la mitad. Con una cuchara, ir sacando toda la carne que tiene el zapallo, mientras se va raspando para darle forma. Repetir el proceso con las otras mitades. Reservar. Tomar los zapallos descarozados y llevarlos a una olla con agua hervida. Blanquearlos durante unos 10 minutos y colar. Sobre el fuego, dejar un sartén para que tome temperatura agregar el sofrito y la carne del zapallo italiano. Mezclar junto con un poco de orégano y sal. Cocinar de 5 a 10 minutos hasta que el zapallo saque textura. Agregar el queso rallado y mezclar. Sobre una lata del horno, rellenar el zapallo con la mezcla. Una vez listo y con una cuchara, acomodar el zapallo para que quede uniforme. Cocinar el zapallo relleno por 10 min. en grill a 180o grados hasta que quede gratinado. Para el montaje, colocar una mitad de zapallo italiano relleno en un plato y agregar una porción de arroz al curry. Por último, una  hojita de perejil para decorar ¡ Y listo !"
     },
     {
       "id": 13,
+      "category":"vegetarian",
       "name": "Crepés de Verduras",
       "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinotto%20de%20Champi%C3%B1ones.jpg?alt=media&token=d8a2e5c6-bfbc-4201-824e-617a87ac3d65",
-      "ingredients": [
+      "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "ingredients":[
         {
           "id": 54,
           "name": "Mix de pimentones 150 g.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FMix%20de%20pimentones%20150%20g.png?alt=media&token=a185e6fe-07ea-4889-8433-03641581577a"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FMix%20de%20pimentones%20150%20g.png?alt=media&token=a185e6fe-07ea-4889-8433-03641581577a",
+          "cost": 2.99
+        }, 
         {
           "id": 55,
           "name": "primavera congelada 500 g.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2Fprimavera%20congelada.png?alt=media&token=bcab4cf9-5d85-4fac-ae66-5fae12e7d666"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2Fprimavera%20congelada.png?alt=media&token=bcab4cf9-5d85-4fac-ae66-5fae12e7d666",
+          "cost": 2.99
+        }, 
         {
           "id": 56,
           "name": "salsa de tomates 400 g.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932",
+          "cost": 2.99
+        }, 
         {
           "id": 57,
           "name": "cebollín 3 un.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2Fcebolli%CC%81n%20.png?alt=media&token=b09afd9d-3586-48f6-9910-bd6ad561516f"
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2Fcebolli%CC%81n%20.png?alt=media&token=b09afd9d-3586-48f6-9910-bd6ad561516f",
+          "cost": 2.99
         },
         {
           "id": 58,
           "name": "harina con polvos de hornear 2 tazas",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b"
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b",
+          "cost": 2.99
         },
         {
           "id": 59,
           "name": "Salsa natural Unimarc 200 g.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b"
-        }
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b",
+          "cost": 2.99
+        }                   
       ],
-      "Preparation": "PPara preparar la masa de los crepés, en un bowl agregar 2 tazas de harina, un chorrito de agua, una pizca de aceite y sal. Revolver. Luego agregar 1 huevo hasta lograr una masa homogénea sin grumos. En un sartén previamente calentado a temperatura media con una pizca de aceite, ir agregando la mezcla de la masa con ayuda de un cucharón. Dejar dorar por ambos lados y retirar. Continuar el proceso uno a uno hasta acabar la mezcla, deben salir al menos 8 crepés dependiendo el grosor deseado. Calentar un sartén y agregar una pizca de aceite. Verter la salsa de tomates y esperar a que tome temperatura, agregar una pizca de azúcar. Reservar. En una tabla, cortar cebollines y sofreír con una pizca de aceite. Agregar también el mix de pimentones con un toque de pimienta y sal. Cuando el cebollín esté tierno, agregar la primavera. Retirar las verduras del sartén y dejar reposar en un recipiente. Reservar. Rellenar nuestros crepés con mix de verduras y un poco de salsa de tomate que habíamos reservado anteriormente. Para el montaje, agregar con una cuchara la salsa de tomate al plato para darle una base extra de sabor. Por plato son 2 unidades. ¡Y listo! ¡Así de fácil! ¡Así de rico!."
+      "preparation": "PPara preparar la masa de los crepés, en un bowl agregar 2 tazas de harina, un chorrito de agua, una pizca de aceite y sal. Revolver. Luego agregar 1 huevo hasta lograr una masa homogénea sin grumos. En un sartén previamente calentado a temperatura media con una pizca de aceite, ir agregando la mezcla de la masa con ayuda de un cucharón. Dejar dorar por ambos lados y retirar. Continuar el proceso uno a uno hasta acabar la mezcla, deben salir al menos 8 crepés dependiendo el grosor deseado. Calentar un sartén y agregar una pizca de aceite. Verter la salsa de tomates y esperar a que tome temperatura, agregar una pizca de azúcar. Reservar. En una tabla, cortar cebollines y sofreír con una pizca de aceite. Agregar también el mix de pimentones con un toque de pimienta y sal. Cuando el cebollín esté tierno, agregar la primavera. Retirar las verduras del sartén y dejar reposar en un recipiente. Reservar. Rellenar nuestros crepés con mix de verduras y un poco de salsa de tomate que habíamos reservado anteriormente. Para el montaje, agregar con una cuchara la salsa de tomate al plato para darle una base extra de sabor. Por plato son 2 unidades. ¡Y listo! ¡Así de fácil! ¡Así de rico!."
     },
     {
       "id": 14,
+      "category":"vegetarian",
       "name": "Budín de Acelga",
       "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinotto%20de%20Champi%C3%B1ones.jpg?alt=media&token=d8a2e5c6-bfbc-4201-824e-617a87ac3d65",
-      "ingredients": [
+      "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "ingredients":[
         {
           "id": 60,
           "name": "Acelga 1 un.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinoa%20Carozzi%20250%20gr.png?alt=media&token=09759f08-f40b-471f-b1a9-53606eb43b2e"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinoa%20Carozzi%20250%20gr.png?alt=media&token=09759f08-f40b-471f-b1a9-53606eb43b2e",
+          "cost": 2.99
+        }, 
         {
           "id": 61,
           "name": "Huevos Unimarc 6 un.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Champi%C3%B1%C3%B3n%20bandeja%20200gr.png?alt=media&token=38760336-9a14-49be-ae8b-f4a646662f7c"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Champi%C3%B1%C3%B3n%20bandeja%20200gr.png?alt=media&token=38760336-9a14-49be-ae8b-f4a646662f7c",
+          "cost": 2.99
+        }, 
         {
           "id": 62,
           "name": "Queso rallado Reggianito Colun 40 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FQueso%20rallado%20Reggianito%20Colun%2040%20g.png?alt=media&token=f945a3fe-c559-46b8-af2a-751df7d61110"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FQueso%20rallado%20Reggianito%20Colun%2040%20g.png?alt=media&token=f945a3fe-c559-46b8-af2a-751df7d61110",
+          "cost": 2.99
+        }, 
         {
           "id": 63,
           "name": "Sofrito Frutos del Maipo 150 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FSofrito%20Frutos%20del%20Maipo.png?alt=media&token=0eb38938-c8b5-4b17-9f1b-c443aa74ccff"
-        }
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FSofrito%20Frutos%20del%20Maipo.png?alt=media&token=0eb38938-c8b5-4b17-9f1b-c443aa74ccff",
+          "cost": 2.99
+        }       
       ],
-      "Preparation": "En un sartén grande poner una pizca de aceite y agregar el sofrito, sal y pimienta. Cocinar durante4min. Reservar. Cortar la acelga para que quede bien fina. Agregar la mitad de la acelga en el sofrito. Reservar la otra mitad para hacer una salsa y un poco para freír y decorar los platos. Quebrar los 6 huevos en un bowl grande. Batir y reservar. Agregar el sofrito con la acelga en el bowl y mezclar. Reservar. Untar un poco de aceite en una budinera y luego verter la mezcla. Agregar el queso rallado y un toque de aceite encima. Meter la budinera al horno a 180 C(temperatura media) por 30 a 35 minutos. Para la salsa procesar la acelga con un vaso de agua hervida, luego calentar en un sartén y reservar. Para la decoración freír el resto de hojas picadas de acelga que dejamos separadas hasta que queden crujientes. Reservar. Retirar el budín del horno y cortar a gusto. Para montar, verter la crema de acelga en los platos , colocar el budín encima y poner las hojitas fritas para decorar . ¡Todo listo para disfrutar un rico Budín de Acelga en familia!"
+      "preparation": "En un sartén grande poner una pizca de aceite y agregar el sofrito, sal y pimienta. Cocinar durante4min. Reservar. Cortar la acelga para que quede bien fina. Agregar la mitad de la acelga en el sofrito. Reservar la otra mitad para hacer una salsa y un poco para freír y decorar los platos. Quebrar los 6 huevos en un bowl grande. Batir y reservar. Agregar el sofrito con la acelga en el bowl y mezclar. Reservar. Untar un poco de aceite en una budinera y luego verter la mezcla. Agregar el queso rallado y un toque de aceite encima. Meter la budinera al horno a 180 C(temperatura media) por 30 a 35 minutos. Para la salsa procesar la acelga con un vaso de agua hervida, luego calentar en un sartén y reservar. Para la decoración freír el resto de hojas picadas de acelga que dejamos separadas hasta que queden crujientes. Reservar. Retirar el budín del horno y cortar a gusto. Para montar, verter la crema de acelga en los platos , colocar el budín encima y poner las hojitas fritas para decorar . ¡Todo listo para disfrutar un rico Budín de Acelga en familia!"
     },
     {
       "id": 15,
+      "category":"healthy",
       "name": "Fritos de Coliflor con Puré",
       "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinotto%20de%20Champi%C3%B1ones.jpg?alt=media&token=d8a2e5c6-bfbc-4201-824e-617a87ac3d65",
-      "ingredients": [
+      "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "ingredients":[
         {
           "id": 64,
           "name": "1 Coliflor",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FColiflor.png?alt=media&token=3233b74a-760c-4085-b413-1e9f6d0bb689"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FColiflor.png?alt=media&token=3233b74a-760c-4085-b413-1e9f6d0bb689",
+          "cost": 2.99
+        }, 
         {
           "id": 65,
           "name": "Mix de pimentones 150 grs",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FMix%20de%20pimentones%20150%20g.png?alt=media&token=a185e6fe-07ea-4889-8433-03641581577a"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FMix%20de%20pimentones%20150%20g.png?alt=media&token=a185e6fe-07ea-4889-8433-03641581577a",
+          "cost": 2.99
+        }, 
         {
           "id": 66,
           "name": "Salsa de tomate Unimarc natural 200 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932",
+          "cost": 2.99
+        }, 
         {
           "id": 67,
           "name": "40 gramos de queso rallado",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b"
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b",
+          "cost": 2.99
         },
         {
           "id": 68,
           "name": "125 gramos de puré instantáneo",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b"
-        }
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b",
+          "cost": 2.99
+        }          
       ],
-      "Preparation": "Cortar la colifor y agregar en una olla con agua hirviendo y un poco de sal para blanquearla por 5 min. Retirar. Luego, en un bowl mezclar una taza de agua con harina para hacer el batido. Añadir sal y pimienta. Mezclar los trozos de coli or con el batido y agregar en una olla con abundante aceite caliente para hacer los fritos. Freír por 3 a 4 minutos y retirar en un bowl con papel absorbente para escurrir el aceite. En otra olla, agregar 1 taza de leche y 1 taza de agua, más la mitad de la salsa de tomates y el puré instantáneo. Revolver. Agregar agua a gusto si pre ere el puré más licuado, además de sal, pimienta y aceite. En un sartén con aceite caliente, agregar el mix de pimentones y la salsa de tomates que reservamos, salpimentar y dejar cocinar por 3 a 4 minutos. Para servir, agregar una porción de puré en un plato, añadir la salsa con los pimentones encima, espolvorear con queso rallado y agregar los fritos de coli or a un lado. ¡Una rica receta para toda la familia!"
+      "preparation": "Cortar la colifor y agregar en una olla con agua hirviendo y un poco de sal para blanquearla por 5 min. Retirar. Luego, en un bowl mezclar una taza de agua con harina para hacer el batido. Añadir sal y pimienta. Mezclar los trozos de coli or con el batido y agregar en una olla con abundante aceite caliente para hacer los fritos. Freír por 3 a 4 minutos y retirar en un bowl con papel absorbente para escurrir el aceite. En otra olla, agregar 1 taza de leche y 1 taza de agua, más la mitad de la salsa de tomates y el puré instantáneo. Revolver. Agregar agua a gusto si pre ere el puré más licuado, además de sal, pimienta y aceite. En un sartén con aceite caliente, agregar el mix de pimentones y la salsa de tomates que reservamos, salpimentar y dejar cocinar por 3 a 4 minutos. Para servir, agregar una porción de puré en un plato, añadir la salsa con los pimentones encima, espolvorear con queso rallado y agregar los fritos de coli or a un lado. ¡Una rica receta para toda la familia!"
     },
     {
       "id": 16,
+      "category":"healthy",
       "name": "Souffle de Zanahoria",
       "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinotto%20de%20Champi%C3%B1ones.jpg?alt=media&token=d8a2e5c6-bfbc-4201-824e-617a87ac3d65",
-      "ingredients": [
+      "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "ingredients":[
         {
           "id": 69,
           "name": "Zanahoria 1 kg",
-          "img": "hhttps://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FZanahoria.png?alt=media&token=c3a12e0e-fafc-483b-85cd-2eb96ce7f0bd"
-        },
+          "img": "hhttps://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FZanahoria.png?alt=media&token=c3a12e0e-fafc-483b-85cd-2eb96ce7f0bd",
+          "cost": 2.99
+        }, 
         {
           "id": 70,
           "name": "Queso rallado 40 g",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Champi%C3%B1%C3%B3n%20bandeja%20200gr.png?alt=media&token=38760336-9a14-49be-ae8b-f4a646662f7c"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Champi%C3%B1%C3%B3n%20bandeja%20200gr.png?alt=media&token=38760336-9a14-49be-ae8b-f4a646662f7c",
+          "cost": 2.99
+        }, 
         {
           "id": 71,
           "name": "Huevos 6 unidades",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2Fhuevos.png?alt=media&token=c3a0e0b4-bdfe-45fb-8273-e2abb2961403"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2Fhuevos.png?alt=media&token=c3a0e0b4-bdfe-45fb-8273-e2abb2961403",
+          "cost": 2.99
+        }, 
         {
           "id": 72,
           "name": "Cebolla 250 g",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FCebolla.png?alt=media&token=d9cf27ba-e07a-4a01-8e06-a1ba4f011238"
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FCebolla.png?alt=media&token=d9cf27ba-e07a-4a01-8e06-a1ba4f011238",
+          "cost": 2.99
         },
         {
           "id": 73,
           "name": "Leche natural 400 ml",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b"
-        }
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b",
+          "cost": 2.99
+        }          
       ],
-      "Preparation": "Cortamos la cebolla en tiras delgadas y las sofreímos en un sartén hasta cristalizar. Agregamos a las cebollas un poco de agua y sal para hidratar, y una vez que desaparezca el agua y tomen un tono marrón, las dejamos reposar. Reservamos cuatro zanahorias y el resto las cortamos en rodajas para cocer en una olla con agua hirviendo durante 12 minutos a fuego alto. En otra olla ponemos 50 g de mantequilla a fuego bajo, agregamos tres cucharadas de harina y revolvemos hasta que esta se compacte un poco. Agregamos leche fría a la olla con harina, junto a un poco de sal y pimienta, revolvemos suavemente y cocinamos durante 20 minutos a fuego alto. Rallamos las cuatro zanahorias reservadas. Separamos las yemas de las claras, para luego batir las claras hasta punto de nieve y después batir las yemas. Colamos la olla con zanahorias y para luego procesarlas. Juntamos la zanahoria rallada con la cebolla caramelizada y la zanahoria procesada, agregamos medio queso rallado revolviendo la mezcla. Incorporamos la yema batida a la mezcla y revolvemos suavemente de forma envolvente hasta tener una mezcla homogénea. Agregamos la clara batida revolviendo suavemente en movimiento envolvente incorporando el resto de la harina a la mezcla para dar firmeza. Tomamos unos pocillos y en el fondo ponemos un poco de bechamel, para luego verter la mezcla en su interior. Espolvoreamos el resto del queso rallado encima de la mezcla en los pocillos. Llevamos los pocillos al horno en doble función a 180ºC durante 15 a 20 minutos y finalizamos con la función grill. Sacamos cuidado de quemarnos y servimos."
+      "preparation": "Cortamos la cebolla en tiras delgadas y las sofreímos en un sartén hasta cristalizar. Agregamos a las cebollas un poco de agua y sal para hidratar, y una vez que desaparezca el agua y tomen un tono marrón, las dejamos reposar. Reservamos cuatro zanahorias y el resto las cortamos en rodajas para cocer en una olla con agua hirviendo durante 12 minutos a fuego alto. En otra olla ponemos 50 g de mantequilla a fuego bajo, agregamos tres cucharadas de harina y revolvemos hasta que esta se compacte un poco. Agregamos leche fría a la olla con harina, junto a un poco de sal y pimienta, revolvemos suavemente y cocinamos durante 20 minutos a fuego alto. Rallamos las cuatro zanahorias reservadas. Separamos las yemas de las claras, para luego batir las claras hasta punto de nieve y después batir las yemas. Colamos la olla con zanahorias y para luego procesarlas. Juntamos la zanahoria rallada con la cebolla caramelizada y la zanahoria procesada, agregamos medio queso rallado revolviendo la mezcla. Incorporamos la yema batida a la mezcla y revolvemos suavemente de forma envolvente hasta tener una mezcla homogénea. Agregamos la clara batida revolviendo suavemente en movimiento envolvente incorporando el resto de la harina a la mezcla para dar firmeza. Tomamos unos pocillos y en el fondo ponemos un poco de bechamel, para luego verter la mezcla en su interior. Espolvoreamos el resto del queso rallado encima de la mezcla en los pocillos. Llevamos los pocillos al horno en doble función a 180ºC durante 15 a 20 minutos y finalizamos con la función grill. Sacamos cuidado de quemarnos y servimos."
     },
     {
       "id": 17,
+      "category":"healthy",
       "name": "Tortilla de Cuscús",
       "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinotto%20de%20Champi%C3%B1ones.jpg?alt=media&token=d8a2e5c6-bfbc-4201-824e-617a87ac3d65",
-      "ingredients": [
+      "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "ingredients":[
         {
           "id": 74,
           "name": "Cuscús 250 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinoa%20Carozzi%20250%20gr.png?alt=media&token=09759f08-f40b-471f-b1a9-53606eb43b2e"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinoa%20Carozzi%20250%20gr.png?alt=media&token=09759f08-f40b-471f-b1a9-53606eb43b2e",
+          "cost": 2.99
+        }, 
         {
           "id": 75,
           "name": "Huevo 6 unidades",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2Fhuevos.png?alt=media&token=c3a0e0b4-bdfe-45fb-8273-e2abb2961403"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2Fhuevos.png?alt=media&token=c3a0e0b4-bdfe-45fb-8273-e2abb2961403",
+          "cost": 2.99
+        }, 
         {
           "id": 76,
           "name": "Perejil 1 mata",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FPerejil.png?alt=media&token=097f7cd3-c85a-4adf-a752-b7bce637ef27"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FPerejil.png?alt=media&token=097f7cd3-c85a-4adf-a752-b7bce637ef27",
+          "cost": 2.99
+        }, 
         {
           "id": 77,
           "name": "Mix de pimentones 150 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FMix%20de%20pimentones%20150%20g.png?alt=media&token=a185e6fe-07ea-4889-8433-03641581577a"
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FMix%20de%20pimentones%20150%20g.png?alt=media&token=a185e6fe-07ea-4889-8433-03641581577a",
+          "cost": 2.99
         },
         {
           "id": 78,
           "name": "Queso rallado Unimarc 40 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b"
-        }
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b",
+          "cost": 2.99
+        }                  
       ],
-      "Preparation": "Dejamos cocer 2 huevos en una olla con agua hirviendo a fuego alto durante 5 minutos. Cortamos la zanahoria y el ajo para luego agregarlos junto al mix de pimentones a una sartén emperada con aceite, para sofreír durante 8 minutos a fuego medio. En una fuente ponemos el cuscús, con 250 ml de agua caliente, junto a un chorrito de aceite y sal, tapamos con alusa y dejamos hidratar durante 8 minutos. Procesamos el perejil y ajo para hacer un pesto con tres cucharadas de aceite, una cucharada de queso, un chorrito de agua y sal. Reservamos. Sacamos el cuscús y lo soltamos raspando su superficie con una cuchara o tenedor. Cortamos el resto del perejil y lo agregamos al cuscús junto al mix de pimentones, los cuatro huevos restantes y pimienta, y revolvemos suavemente hasta tener una mezcla homogénea. Temperamos un sartén con un poco de aceite y compactamos en su interior la mezcla de cuscús, cocinándolo a fuego alto durante tres minutos por lado. Con ayuda de un plato ligeramente aceitado, volteamos el cuscús y lo ponemos al sartén nuevamente por tres minutos a fuego alto. Agregamos a la tortilla el resto del queso rallado como tope y reservamos en un plato. Pelamos y cortamos en cuatro pedazos los huevos duros, poniendo dos por plato. Colocamos una cucharada de pesto en el plato para crear un efecto espejo y decorar el plato. Cortamos la tortilla y servimos."
+      "preparation": "Dejamos cocer 2 huevos en una olla con agua hirviendo a fuego alto durante 5 minutos. Cortamos la zanahoria y el ajo para luego agregarlos junto al mix de pimentones a una sartén emperada con aceite, para sofreír durante 8 minutos a fuego medio. En una fuente ponemos el cuscús, con 250 ml de agua caliente, junto a un chorrito de aceite y sal, tapamos con alusa y dejamos hidratar durante 8 minutos. Procesamos el perejil y ajo para hacer un pesto con tres cucharadas de aceite, una cucharada de queso, un chorrito de agua y sal. Reservamos. Sacamos el cuscús y lo soltamos raspando su superficie con una cuchara o tenedor. Cortamos el resto del perejil y lo agregamos al cuscús junto al mix de pimentones, los cuatro huevos restantes y pimienta, y revolvemos suavemente hasta tener una mezcla homogénea. Temperamos un sartén con un poco de aceite y compactamos en su interior la mezcla de cuscús, cocinándolo a fuego alto durante tres minutos por lado. Con ayuda de un plato ligeramente aceitado, volteamos el cuscús y lo ponemos al sartén nuevamente por tres minutos a fuego alto. Agregamos a la tortilla el resto del queso rallado como tope y reservamos en un plato. Pelamos y cortamos en cuatro pedazos los huevos duros, poniendo dos por plato. Colocamos una cucharada de pesto en el plato para crear un efecto espejo y decorar el plato. Cortamos la tortilla y servimos."
     },
     {
       "id": 18,
+      "category":"healthy",
       "name": "Buñuelos de Zanahoria",
       "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinotto%20de%20Champi%C3%B1ones.jpg?alt=media&token=d8a2e5c6-bfbc-4201-824e-617a87ac3d65",
-      "ingredients": [
+      "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "ingredients":[
         {
           "id": 79,
           "name": "Zanahoria 1 kilo",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FZanahoria.png?alt=media&token=c3a12e0e-fafc-483b-85cd-2eb96ce7f0bd"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FZanahoria.png?alt=media&token=c3a12e0e-fafc-483b-85cd-2eb96ce7f0bd",
+          "cost": 2.99
+        }, 
         {
           "id": 80,
           "name": "Huevos grande blanco 6 un.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2Fhuevos.png?alt=media&token=c3a0e0b4-bdfe-45fb-8273-e2abb2961403"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2Fhuevos.png?alt=media&token=c3a0e0b4-bdfe-45fb-8273-e2abb2961403",
+          "cost": 2.99
+        }, 
         {
           "id": 81,
           "name": "Queso rallado 40 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Crema%20espesa%20Soprole%20larga%20vida.png?alt=media&token=acafe1a3-cb72-4146-838e-c2dc0987b932",
+          "cost": 2.99
+        }, 
         {
           "id": 82,
           "name": "Papas 600 gr",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FPapa%20granel.png?alt=media&token=bd33309b-437b-431c-93c3-250def34bf8a"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FPapa%20granel.png?alt=media&token=bd33309b-437b-431c-93c3-250def34bf8a",
+          "cost": 2.99
+        }, 
         {
           "id": 83,
           "name": "Agua Mineral Benedictino con gas 500 ml.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FAgua%20Mineral%20Benedictino%20con%20gas.png?alt=media&token=b14321db-eb7f-495b-bcf8-3561b2d9dda6"
-        }
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FAgua%20Mineral%20Benedictino%20con%20gas.png?alt=media&token=b14321db-eb7f-495b-bcf8-3561b2d9dda6",
+          "cost": 2.99
+        }                
       ],
-      "Preparation": "Pelamos las papas, cortamos en 4 y ponemos a cocer en una olla con agua fría; agregamos sal y una pizca de aceite. Cortamos el tomate en cuatro gajos y lo ponemos abierto en una fuente para horno, le vertemos un chorrito de aceite, aliñamos y llevamos al horno a 180 C, durante 15 minutos en función grill. Reservamos dos o tres zanahorias y rallamos el resto. Reservamos. Utilizamos un pelador o un mandolino para pelar las zanahorias reservadas y cortar en láminas delgadas que pondremos en una fuente con hielo y agua. Colamos nuestras papas, las aplastamos usando un moledor y las juntamos con nuestras zanahorias ralladas, les agregamos los 6 huevos, sal, pimienta, queso y mezclamos. Para el batido, vertemos en una fuente el agua mineral con gas y la mezclamos con la taza de harina junto a sal y pimienta. Hacemos bolitas de nuestra mezcla de zanahoria y papa, las pasamos por el batido con harina y freímos. Para la salsa, sacamos el tomate del horno y lo mezclamos usando un procesador manual con tres cucharadas de aceite, sal, pimienta y 350 cc. de agua mineral. Usamos la salsa para decorar el fondo del plato y servimos nuestros buñuelos fritos con un poco de mezcla en el tope. Decoramos el plato con las láminas de zanahoria que al salir del agua con hielo deben estar enroscadas y listo para servir ¡Rico y fácil para disfrutar en familia!"
+      "preparation": "Pelamos las papas, cortamos en 4 y ponemos a cocer en una olla con agua fría; agregamos sal y una pizca de aceite. Cortamos el tomate en cuatro gajos y lo ponemos abierto en una fuente para horno, le vertemos un chorrito de aceite, aliñamos y llevamos al horno a 180 C, durante 15 minutos en función grill. Reservamos dos o tres zanahorias y rallamos el resto. Reservamos. Utilizamos un pelador o un mandolino para pelar las zanahorias reservadas y cortar en láminas delgadas que pondremos en una fuente con hielo y agua. Colamos nuestras papas, las aplastamos usando un moledor y las juntamos con nuestras zanahorias ralladas, les agregamos los 6 huevos, sal, pimienta, queso y mezclamos. Para el batido, vertemos en una fuente el agua mineral con gas y la mezclamos con la taza de harina junto a sal y pimienta. Hacemos bolitas de nuestra mezcla de zanahoria y papa, las pasamos por el batido con harina y freímos. Para la salsa, sacamos el tomate del horno y lo mezclamos usando un procesador manual con tres cucharadas de aceite, sal, pimienta y 350 cc. de agua mineral. Usamos la salsa para decorar el fondo del plato y servimos nuestros buñuelos fritos con un poco de mezcla en el tope. Decoramos el plato con las láminas de zanahoria que al salir del agua con hielo deben estar enroscadas y listo para servir ¡Rico y fácil para disfrutar en familia!"
     },
     {
       "id": 19,
+      "category":"healthy",
       "name": "Cremoso de Quinoa",
       "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinotto%20de%20Champi%C3%B1ones.jpg?alt=media&token=d8a2e5c6-bfbc-4201-824e-617a87ac3d65",
-      "ingredients": [
+      "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "ingredients":[
         {
           "id": 84,
           "name": "Quinoa Vivo Tricolor 250 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FQuinoa%20Vivo%20Tricolor%20250%20gr.png?alt=media&token=de92e9ec-08eb-4037-a7ed-e8513ae22240"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FQuinoa%20Vivo%20Tricolor%20250%20gr.png?alt=media&token=de92e9ec-08eb-4037-a7ed-e8513ae22240",
+          "cost": 2.99
+        }, 
         {
           "id": 85,
           "name": "Sofrito Frutos del Maipo 150 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FSofrito%20Frutos%20del%20Maipo.png?alt=media&token=0eb38938-c8b5-4b17-9f1b-c443aa74ccff"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FSofrito%20Frutos%20del%20Maipo.png?alt=media&token=0eb38938-c8b5-4b17-9f1b-c443aa74ccff",
+          "cost": 2.99
+        }, 
         {
           "id": 86,
           "name": "Mix de pimentones Frutos del Maipo 150 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FMix%20de%20pimentones%20150%20g.png?alt=media&token=a185e6fe-07ea-4889-8433-03641581577a"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FMix%20de%20pimentones%20150%20g.png?alt=media&token=a185e6fe-07ea-4889-8433-03641581577a",
+          "cost": 2.99
+        }, 
         {
           "id": 87,
           "name": "Arvejitas Unimarc 310 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b",
+          "cost": 2.99
+        }, 
         {
           "id": 88,
           "name": "Salsa de tomate italiana Unimarc 200 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b"
-        }
+          "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Queso%20rallado%20Quillayes%2040gr.png?alt=media&token=65d2c6be-10f3-4802-96e9-90b7435c780b",
+          "cost": 2.99
+        }                
       ],
-      "Preparation": "Vertemos 500 ml de agua en una olla y colocamos la quínoa con un poco de aceite y sal, tapamos la olla y dejamos cocinar a fuego alto durante unos ocho minutos. Temperamos una sartén con un poco de aceite y le agregamos nuestro sofrito, el mix de pimentones, sal y pimienta. Revolvemos y dejamos sofreír durante tres minutos. Agregamos al sartén la salsa de tomate y las arvejitas coladas, revolvemos a fuego medio y le vertemos 200 cc. de leche para mezclar. Una vez lista la Quinoa la colocamos en el sartén con la mezcla de verduras y dejamos calentar durante 3 minutos a fuego medio. Dejamos reposar 3 minutos más. Servimos y decoramos con hojas de perejil picaditas en el tope y un toque de aceite de oliva. ¡y listo para disfrutar en familia!"
+      "preparation": "Vertemos 500 ml de agua en una olla y colocamos la quínoa con un poco de aceite y sal, tapamos la olla y dejamos cocinar a fuego alto durante unos ocho minutos. Temperamos una sartén con un poco de aceite y le agregamos nuestro sofrito, el mix de pimentones, sal y pimienta. Revolvemos y dejamos sofreír durante tres minutos. Agregamos al sartén la salsa de tomate y las arvejitas coladas, revolvemos a fuego medio y le vertemos 200 cc. de leche para mezclar. Una vez lista la Quinoa la colocamos en el sartén con la mezcla de verduras y dejamos calentar durante 3 minutos a fuego medio. Dejamos reposar 3 minutos más. Servimos y decoramos con hojas de perejil picaditas en el tope y un toque de aceite de oliva. ¡y listo para disfrutar en familia!"
     },
     {
       "id": 20,
+      "category":"healthy",
       "name": "Suflé de brocoli",
       "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinotto%20de%20Champi%C3%B1ones.jpg?alt=media&token=d8a2e5c6-bfbc-4201-824e-617a87ac3d65",
-      "ingredients": [
+      "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "ingredients":[
         {
           "id": 89,
           "name": "Huevos grande blanco Unimarc 5 un.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2Fhuevos.png?alt=media&token=c3a0e0b4-bdfe-45fb-8273-e2abb2961403"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2Fhuevos.png?alt=media&token=c3a0e0b4-bdfe-45fb-8273-e2abb2961403",
+          "cost": 2.99
+        }, 
         {
           "id": 90,
           "name": "Brócoli 1 un.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FBrocoli.png?alt=media&token=fb0b1610-8dfc-4d07-bb85-3b0d5ab54496"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FBrocoli.png?alt=media&token=fb0b1610-8dfc-4d07-bb85-3b0d5ab54496",
+          "cost": 2.99
+        }, 
         {
           "id": 91,
           "name": "Pimentón verde 1 un.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FPiment%C3%B3n%20verde.png?alt=media&token=eff22fc9-2ae8-4184-b795-0ff783f85329"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FPiment%C3%B3n%20verde.png?alt=media&token=eff22fc9-2ae8-4184-b795-0ff783f85329",
+          "cost": 2.99
+        }, 
         {
           "id": 92,
           "name": "Sofrito Frutos del Maipo 150 gr.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FPiment%C3%B3n%20verde.png?alt=media&token=eff22fc9-2ae8-4184-b795-0ff783f85329"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FPiment%C3%B3n%20verde.png?alt=media&token=eff22fc9-2ae8-4184-b795-0ff783f85329",
+          "cost": 2.99
+        }, 
         {
           "id": 93,
           "name": "Leche blanca entera Colun 200 cc.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FLeche%20entera%20Colun%20200%20cc..png?alt=media&token=6fc6bbfc-7b41-4564-b58a-31082c371015"
-        },
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FLeche%20entera%20Colun%20200%20cc..png?alt=media&token=6fc6bbfc-7b41-4564-b58a-31082c371015",
+          "cost": 2.99
+        }, 
         {
           "id": 94,
           "name": "Queso rallado Reggianito Colun 40 g.",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FQueso%20rallado%20Reggianito%20Colun%2040%20g.png?alt=media&token=f945a3fe-c559-46b8-af2a-751df7d61110"
-        }
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FQueso%20rallado%20Reggianito%20Colun%2040%20g.png?alt=media&token=f945a3fe-c559-46b8-af2a-751df7d61110",
+          "cost": 2.99
+        }                   
       ],
-      "Preparation": "Lavar el brócoli y pimentón, picarlos en trozos pequeños y dejarlos en un bowl. Separarlas claras de las yemas de huevo, integrar las yemas con las verduras y en otro bowl batir las claras a punto de nieve (que queden como espuma). Al tener las claras batidas, incorporar todo en un solo recipiente y aliñar con sal y pimienta a gusto. Agregar dos cucharaditas de harina (cernida) para ayudar a la consistencia en la mezcla. Reservar. Calentar un sartén con unas gotas de aceite y freír el sofrito unos 10 minutos a fuego medio. Integrar a la mezcla de verduras y huevo. Precalentar el horno por 10 minutos a 180 ̊(temperatura media – alta). Luego, verterla mezcla en 4 pocillos, agregar encima una capita de queso rallado y llevar al horno por 30 minutos, o hasta que quede una capa de queso dorada y crujiente. Sacar del horno y servir inmediatamente. Ahora, a disfrutar esta exquisita receta."
+      "preparation": "Lavar el brócoli y pimentón, picarlos en trozos pequeños y dejarlos en un bowl. Separarlas claras de las yemas de huevo, integrar las yemas con las verduras y en otro bowl batir las claras a punto de nieve (que queden como espuma). Al tener las claras batidas, incorporar todo en un solo recipiente y aliñar con sal y pimienta a gusto. Agregar dos cucharaditas de harina (cernida) para ayudar a la consistencia en la mezcla. Reservar. Calentar un sartén con unas gotas de aceite y freír el sofrito unos 10 minutos a fuego medio. Integrar a la mezcla de verduras y huevo. Precalentar el horno por 10 minutos a 180 ̊(temperatura media – alta). Luego, verterla mezcla en 4 pocillos, agregar encima una capita de queso rallado y llevar al horno por 30 minutos, o hasta que quede una capa de queso dorada y crujiente. Sacar del horno y servir inmediatamente. Ahora, a disfrutar esta exquisita receta."
+    },
+    {
+      "id": 21,
+      "category":"healthy",
+      "name": "Lasaña de verduras y atún",
+      "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinotto%20de%20Champi%C3%B1ones.jpg?alt=media&token=d8a2e5c6-bfbc-4201-824e-617a87ac3d65",
+      "video":"https://www.youtube.com/watch?v=BE__sj22lv8&feature=emb_title",
+      "ingredients":[
+        {
+          "id": 95,
+          "name": "200 g Lasaña precocida Lucchetti",
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2Fhuevos.png?alt=media&token=c3a0e0b4-bdfe-45fb-8273-e2abb2961403",
+          "cost": 2.99
+        }, 
+        {
+          "id": 96,
+          "name": "1 Zapallo italiano",
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FBrocoli.png?alt=media&token=fb0b1610-8dfc-4d07-bb85-3b0d5ab54496",
+          "cost": 2.99
+        }, 
+        {
+          "id": 97,
+          "name": "2 Salsas de tomate Dampezzo 200 cc.",
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FPiment%C3%B3n%20verde.png?alt=media&token=eff22fc9-2ae8-4184-b795-0ff783f85329",
+          "cost": 2.99
+        }, 
+        {
+          "id": 98,
+          "name": "Primavera congelada Unimarc 500 g",
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FPiment%C3%B3n%20verde.png?alt=media&token=eff22fc9-2ae8-4184-b795-0ff783f85329",
+          "cost": 2.99
+        }, 
+        {
+          "id": 99,
+          "name": "250 g trozo de queso Colun",
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FLeche%20entera%20Colun%20200%20cc..png?alt=media&token=6fc6bbfc-7b41-4564-b58a-31082c371015",
+          "cost": 2.99
+        }, 
+        {
+          "id": 100,
+          "name": "1 Tarro de atun desmenuzado en aceite Unimarc 170 g",
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FQueso%20rallado%20Reggianito%20Colun%2040%20g.png?alt=media&token=f945a3fe-c559-46b8-af2a-751df7d61110",
+          "cost": 2.99
+        }                   
+      ],
+      "preparation": "Cocer la primavera en una olla con agua caliente durante 5 minutos para descongelarla. Luego colar las verduras y reservar. Cortar el zapallo italiano con cáscara en rodajas y saltearlo. Reservar. Luego, rallar el trozo de queso. En una olla cocer la salsa de tomate por el tiempo que indica el envase. Aliñar a gusto con pimienta y orégano. Reservar. En una fuente cuadrada o rectangular, poner un poco de aceite y armar la lasaña. Primero poner en la base salsa de tomate, luego poner láminas de lasaña previamente humedecidas con agua tibia y una pizca de sal, agregar encima las rodajas de zapallo italiano, las verduras, el queso y el atún. Repetir el proceso hasta ocupar todos los ingredientes. Poner la fuente en el horno previamente precalentado a 180°C (temperatura media), hasta que la lasaña esté dorada aproximadamente 20 minutos. Sacar la fuente del horno y servir cuatro porciones. ¡Ahora a disfrutar esta exquisita receta!"
     }
   ]
 }
