@@ -16,8 +16,54 @@
   font-size: 2rem;
 }
 
+.menuList {
+  background-color: #DA291C;
+  color: white;
+  border-radius: 5px;
+}
+
+.menuList > li {
+  list-style: none;
+  padding: 1rem .5rem;
+}
+
+.menuList > li:last-child {
+  margin-left: -1.5rem;
+}
+
+.active {
+  display: block;
+  margin-top: -1.4rem;
+  z-index: 1000;
+}
+
+.hidden {
+  display: none;
+}
+
 .actionsContainer {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
   margin: 0rem 2rem;
 }
+
+.cardsWrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+/* RECIPE (singular xd) */
+.cardContainer {
+  width: 40%;
+  margin: 1rem;
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .cardContainer {
+    width: 100%;
+  }
+}
+

@@ -17,7 +17,7 @@ const NavBar = (props) => {
             <NavDropdown.Item href="#action/3.3">Maipú</NavDropdown.Item>
           </NavDropdown>
         </Nav>
-        <Nav.Link href="#shopping-cart"><span class="iconify" data-icon="el:shopping-cart" data-inline="false"></span></Nav.Link>
+        <Nav.Link href="#shopping-cart"><span className="iconify" data-icon="el:shopping-cart" data-inline="false"></span></Nav.Link>
       </Navbar.Collapse>
     </Navbar>
   );

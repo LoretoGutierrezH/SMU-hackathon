@@ -11,3 +11,8 @@
 .searchResultsContainer {
   position: absolute;
 }
+
+.iconBg {
+  background-color: #DA291C;
+  width: 3rem;
+}

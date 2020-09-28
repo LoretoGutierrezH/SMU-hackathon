@@ -8,6 +8,8 @@ import SearchBar from './components/SearchBar/SearchBar.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import  { BrowserRouter as Router,  Route, Switch } from 'react-router-dom';
 console.log(db, auth.currentUser);
+
+
 const App = () => {
   const signUpHandler = (event) => {
     console.log('Registro con correo y contraseña');

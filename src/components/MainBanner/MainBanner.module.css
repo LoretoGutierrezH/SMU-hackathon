@@ -1,0 +1,40 @@
+.mainBanner {
+  background-image: url(https://www.unimarc.cl/wp-content/uploads/2018/04/fondo-cocina-2.jpg);
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-right: 7rem;
+}
+
+.promo {
+  width: 8vw;
+  align-self: flex-start;
+  margin-left: 3rem;
+}
+
+.promo > img {
+  width: 100%;
+}
+
+.nachoImgContainer {
+  z-index: 1000;
+  width: 17vw;
+}
+
+.nachoImgContainer > img {
+  width: 100%;
+}
+
+.bannerText {
+  color: white;
+  text-shadow: 0 0 3px black,
+  0 0 5px black;
+  align-self: center;
+  margin-left: -11rem;
+  font-size: 2rem;
+}
+
+.highlightedText {
+  color: red;
+}
