@@ -16,7 +16,7 @@ export const Video = () => {
           <Skeleton />
         </div>
         : 
-        <iframe width="490" height="400" src="https://www.youtube.com/embed/_lqS2yvCqxU" title="recipe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="490" height="400" src={(contextValue.recipe || {} ).video}title="recipe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       }
     </div>
   )
