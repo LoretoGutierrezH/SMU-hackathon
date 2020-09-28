@@ -1,11 +1,12 @@
 import React from 'react';
+import {ProductItem} from '../products-list/ProductItem'
 
 
 export const ProductsList = () =>{
   return(
     <div className='products-list-container'>
       <h4>
-        Lista de Productos
+       <ProductItem />
       </h4>
     </div>
   );

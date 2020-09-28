@@ -14,16 +14,71 @@
 
 .products-list-container {
   border: 3px solid magenta;
+  background: rgba(255, 255, 255, 0.91);
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
 }
 
+.item{
+  border: 3px solid green;
+}
+.imag{
+  border: 3px solid royalblue;
+  display: flex;
+  flex-direction: row;
+}
+
+.item-info{
+   border: 3px solid red;
+}
+.carrit{
+  color: #fff;
+  background-color:#E7332C;
+  border-radius: 5%;
+ 
+  
+  
+ 
+}
+.quantity{
+  width: 30px;
+ 
+  padding: 10px;
+}
+
+.btnqty{
+  border: none;
+  margin: 5px;
+  padding: 10px;
+}
+
 .info{
   border: 3px solid blue;
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+.watch{
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.cutlery{
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 5px; 
+}
+
+.like{
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .ingredients{
@@ -36,7 +91,11 @@
   margin: 5px;
   border: 3px solid black;
 }
-
+.qrcode{
+  color: red;
+  height: auto;
+  width: auto;
+}
 .preparation{
 border: 3px solid orange;
 }

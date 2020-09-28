@@ -6,9 +6,9 @@ import watch from '../../../../assets/watch.png';
 export const Info = () => {
   return(
     <div className='info'>
-     <img src={ watch } alt="facebook" width="30px" height="30px"/><p>40 Minutos</p>
-     <img src={ cutlery } alt="facebook" width="30px" height="30px"/><p> 4 Personas</p>
-     <img src={ like } alt="facebook" width="30px" height="30px"/><p>26</p>
+     <img className='watch' src={ watch } alt="facebook" /><p>40 Minutos</p>
+     <img className='cutlery' src={ cutlery } alt="facebook" /><p> 4 Personas</p>
+     <img className='like' src={ like } alt="facebook" /><p>26</p>
     </div>
   )
 }

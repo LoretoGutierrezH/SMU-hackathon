@@ -5,7 +5,7 @@
       "category":"vegetarian",
       "name": "Quinotto de Champiñones",
       "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinotto%20de%20Champi%C3%B1ones.jpg?alt=media&token=d8a2e5c6-bfbc-4201-824e-617a87ac3d65",
-      "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "video":"https://www.youtube.com/embed/_lqS2yvCqxU",
       "time":"40 Minutos",
       "ingredients":[
         {
@@ -43,6 +43,7 @@
       "name": "Pimentón relleno de cuscús",
       "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/Piment%C3%B3n%20relleno%20de%20cusc%C3%BAs.jpg?alt=media&token=b48204f1-0c1b-4ef4-99f8-1686a6fc1c00",
       "video":"https://www.youtube.com/watch?v=YMcDP30NUds&feature=youtu.be",
+      "time":"40 Minutos",
       "ingredients":[
         {
           "id": 5,
