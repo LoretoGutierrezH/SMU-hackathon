@@ -5,7 +5,7 @@
       "category":"vegetarian",
       "name": "Quinotto de Champiñones",
       "img": "https://firebasestorage.googleapis.com/v0/b/red-social-women-today.appspot.com/o/Quinotto%20de%20Champi%C3%B1ones.jpg?alt=media&token=d8a2e5c6-bfbc-4201-824e-617a87ac3d65",
-      "video":"https://youtu.be/_lqS2yvCqxU",
+      "video":"https://youtu.be/_lqS2yvCqxU/embed/VIDEO_ID",
       "time":"40 Minutos",
       "ingredients":[
         {
@@ -773,47 +773,48 @@
       "id": 21,
       "category":"healthy",
       "name": "Lasaña de verduras y atún",
-      "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/img-home%2Flasa%C3%B1a-atun.jpg?alt=media&token=2bf868b7-f12a-4f04-9bbb-7b97f1c98129",
+      "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/Lasa%C3%B1a%20de%20verduras%20y%20at%C3%BAn.jpg?alt=media&token=bb93175d-ed0b-4b64-98c2-ce40be892e58",
       "video":"https://www.youtube.com/watch?v=BE__sj22lv8&feature=emb_title",
       "ingredients":[
         {
           "id": 95,
           "name": "200 g Lasaña precocida Lucchetti",
           "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FLasa%C3%B1a%20precocida%20Lucchetti.png?alt=media&token=cb7319ab-5062-4de6-80b1-0363eb5bbc8a",
-          "cost": 2.99
+          "cost": 890
         }, 
         {
           "id": 96,
           "name": "1 Zapallo italiano",
           "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FZapallo%20Italiano%20Unidad.png?alt=media&token=1f1c7f07-3393-416c-bed7-449f23a9283e",
-          "cost": 2.99
+          "cost": 270
         }, 
         {
           "id": 97,
           "name": "2 Salsas de tomate Dampezzo 200 cc.",
           "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FSalsa%20de%20Tomate%20Dampezzo.png?alt=media&token=8f7fa9a8-04c0-4f84-bd28-589e55ef213f",
-          "cost": 2.99
+          "cost": 290
         }, 
         {
           "id": 98,
           "name": "Primavera congelada Unimarc 500 g",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FProducto%20Unimarc.png?alt=media&token=fb0403b9-4666-4a35-ac3d-86ad9697cf7e",
-          "cost": 2.99
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2Fprimavera%20unimarc.jpg?alt=media&token=254c48b2-a252-44a0-858a-a8254e68ba6f",
+          "cost": 780
         }, 
         {
           "id": 99,
           "name": "250 g trozo de queso Colun",
           "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FQuezo%20Ranco%20Trozo%20Colun.png?alt=media&token=11651cd4-7e04-4a37-b467-ff4510f9b387",
-          "cost": 2.99
+          "cost": 990
         }, 
         {
           "id": 100,
           "name": "1 Tarro de atun desmenuzado en aceite Unimarc 170 g",
-          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2FProducto%20Unimarc.png?alt=media&token=fb0403b9-4666-4a35-ac3d-86ad9697cf7e",
-          "cost": 2.99
+          "img": "https://firebasestorage.googleapis.com/v0/b/unimarc-recetas.appspot.com/o/productos%2Fatun%20unimarc.jpg?alt=media&token=f651318d-3604-45ca-90e2-579b7637c57c",
+          "cost": 490
         }                   
       ],
-      "preparation": "Cocer la primavera en una olla con agua caliente durante 5 minutos para descongelarla. Luego colar las verduras y reservar. Cortar el zapallo italiano con cáscara en rodajas y saltearlo. Reservar. Luego, rallar el trozo de queso. En una olla cocer la salsa de tomate por el tiempo que indica el envase. Aliñar a gusto con pimienta y orégano. Reservar. En una fuente cuadrada o rectangular, poner un poco de aceite y armar la lasaña. Primero poner en la base salsa de tomate, luego poner láminas de lasaña previamente humedecidas con agua tibia y una pizca de sal, agregar encima las rodajas de zapallo italiano, las verduras, el queso y el atún. Repetir el proceso hasta ocupar todos los ingredientes. Poner la fuente en el horno previamente precalentado a 180°C (temperatura media), hasta que la lasaña esté dorada aproximadamente 20 minutos. Sacar la fuente del horno y servir cuatro porciones. ¡Ahora a disfrutar esta exquisita receta!"
+      "preparation": "Cocer la primavera en una olla con agua caliente durante 5 minutos para descongelarla. Luego colar las verduras y reservar. Cortar el zapallo italiano con cáscara en rodajas y saltearlo. Reservar. Luego, rallar el trozo de queso. En una olla cocer la salsa de tomate por el tiempo que indica el envase. Aliñar a gusto con pimienta y orégano. Reservar. En una fuente cuadrada o rectangular, poner un poco de aceite y armar la lasaña. Primero poner en la base salsa de tomate, luego poner láminas de lasaña previamente humedecidas con agua tibia y una pizca de sal, agregar encima las rodajas de zapallo italiano, las verduras, el queso y el atún. Repetir el proceso hasta ocupar todos los ingredientes. Poner la fuente en el horno previamente precalentado a 180°C (temperatura media), hasta que la lasaña esté dorada aproximadamente 20 minutos. Sacar la fuente del horno y servir cuatro porciones. ¡Ahora a disfrutar esta exquisita receta!",
+      "prerequisites":["Orégano", "Aceite","Sal","Pimienta"]
     }
   ]
 }
