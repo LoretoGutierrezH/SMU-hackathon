@@ -4,8 +4,8 @@
   width: 100%;
 }
 
-.linksColor > a {
-  color: white;
+.links:hover, .links:active {
+  color: grey;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {

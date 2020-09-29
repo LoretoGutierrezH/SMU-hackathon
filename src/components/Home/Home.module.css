@@ -12,7 +12,7 @@
   max-height: 3rem;
 }
 
-.menuBtn > .chevron {
+.menuBtn>.chevron {
   font-size: 2rem;
 }
 
@@ -22,13 +22,13 @@
   border-radius: 5px;
 }
 
-.menuList > li {
+.menuList>li {
   list-style: none;
   padding: 1rem .2rem;
   width: 10rem;
 }
 
-.menuList > li:last-child {
+.menuList>li:last-child {
   margin-left: -1.5rem;
 }
 
@@ -60,21 +60,18 @@
   justify-content: space-evenly;
 }
 
+.cardsContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
 /* RECIPE (singular xd) */
 .cardContainer {
   width: 40%;
   margin: 1rem;
-}
-
-.links, .links:active {
-  color: white;
-  list-style: none;
-  margin-top: 1rem;
-}
-
-.links:hover {
-  color: white;
-  text-decoration: none;
 }
 
 
@@ -83,4 +80,3 @@
     width: 100%;
   }
 }
-

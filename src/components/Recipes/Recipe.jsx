@@ -4,8 +4,8 @@ import Card from 'react-bootstrap/Card';
 
 const Recipe = (props) => {
   return (
-      <Card className={style.cardContainer}>
-        <Card.Img variant="top" src={props.image} />
+      <Card style={{border: "none"}} className={style.cardContainer}>
+        <Card.Img style={{height: "22.2rem"}} variant="top" src={props.image} />
         <Card.Body>
           <Card.Title>{props.name}</Card.Title>
           <Card.Text>
