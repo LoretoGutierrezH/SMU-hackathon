@@ -4,6 +4,7 @@ import instagram from '../../assets/instagram.png'
 import facebook from '../../assets/facebook.png'
 import twitter from '../../assets/twitter.png'
 import phone from '../../assets/phone.png'
+import logoFooter from '../../assets/logo-footer.png'
 
  
 
@@ -11,15 +12,19 @@ const Footer = (props) => {
   return (
     <footer className={style.footerContainer}>
       <div>
-        <h4> LOGO DE UNIMARC</h4>
+        <div>
+          <img src = {logoFooter}></img>
+        </div>
         <p>Servicio al Cliente</p>
         <p> Consultas, Reclamos y Sugerencias</p>
-        <p> <span className="iconify" data-icon="ant-design:phone-filled" data-inline="false"></span> 600 600 0025</p>
+        <p> <span className="iconify" data-icon="ant-design:phone-filled" data-inline="false" data-rotate="90deg"></span> 600 600 0025</p>
         <p> contacto.unimarc@unimarc.cl</p>
 
       </div>
-      <div>
-        <p> Síguenos en:</p>
+      <div className={style.containP}>
+      <p> Síguenos en:</p>
+      <div className = {style.socialContain}>
+       
         <div className={style.socialNetworks}>
         <img src ={instagram}></img>
         </div>
@@ -29,6 +34,9 @@ const Footer = (props) => {
         <div className={style.socialNetworks}>
         <img src ={twitter}></img>
         </div>
+
+
+      </div>
                 
       </div>
       <div> 
