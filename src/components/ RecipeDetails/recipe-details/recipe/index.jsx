@@ -6,13 +6,14 @@ import { Info } from './Info';
 import { SocialMedia } from './SocialMedia';
 import { PreRequisites } from './PreRequisites';
 import { Preparation } from './Preparation';
+import style from "../recipe-details.module.css";
 
 export const Recipe = () => {
   return (
-    <div className='recipe-container'>
-      <div className='header-recipe'>
+    <div className={style.recipeContainer}>
+      <div className={style.headerRecipe}>
         <Video />
-        <div className='right-container'>
+        <div className={style.rightContainer}>
           <InterativeQr />
           <Ingredients />
         </div>

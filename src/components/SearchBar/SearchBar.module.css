@@ -6,6 +6,7 @@
 
 .searchBar {
   padding: .2rem;
+  padding-left: 1rem;
 }
 
 .searchResultsContainer {

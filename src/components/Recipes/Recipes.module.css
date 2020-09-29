@@ -66,6 +66,10 @@
   margin: 1rem;
 }
 
+.recipeLink, .recipeLink:hover {
+  color: rgb(33, 37, 41);
+}
+
 .links, .links:active {
   color: white;
   list-style: none;

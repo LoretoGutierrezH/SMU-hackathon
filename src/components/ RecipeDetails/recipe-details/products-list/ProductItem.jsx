@@ -2,8 +2,7 @@ import React, {useContext} from 'react';
 import { RecipeContext } from '../../../contexts/recipe';
 import Skeleton from 'react-loading-skeleton';
 import { ButtonQuality } from './ButtonQuality';
-
-
+import style from "../recipe-details.module.css";
 
 export const ProductItem = () => {
    const {
@@ -11,7 +10,7 @@ export const ProductItem = () => {
     recipe={} //prevenimos que la variable recipe sea undefine
   } = useContext(RecipeContext) 
   return(
-    <div className='product-item'>
+    <div className={style.productItem}>
   <h4>Ingredientes:</h4>
         { loading ?
         <div style={{width:'100%'}}>

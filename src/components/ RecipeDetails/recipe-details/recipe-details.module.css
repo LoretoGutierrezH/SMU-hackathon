@@ -1,0 +1,360 @@
+.recipeDetailContainer {
+  display: grid;
+  grid-template-columns:  70% 30%;
+  grid-template-rows:  auto;
+  margin: 2rem 3rem;
+  margin-bottom: 4rem;
+}
+
+.recipeContainer {
+  /* border: 3px solid red; */
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.productsListContainer {
+ /*  border: 3px solid magenta; */
+  background: rgba(255, 255, 255, 0.91);
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+/* .item{
+  border: 3px solid green;
+} */
+.imag{
+  border: 3px solid royalblue;
+  display: flex;
+  flex-direction: row;
+}
+
+/* .itemInfo{
+   border: 3px solid red;
+} */
+.carrit{
+  color: #fff;
+  background-color:#E7332C;
+  border-radius: 5px;
+ 
+  
+  
+ 
+}
+.quantity{
+  width: 50px;
+ 
+  padding: 10px;
+}
+
+.btnqty{
+  border: none;
+  margin: 5px;
+  padding: 10px;
+}
+
+.info{
+  /* border: 3px solid blue; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.watch{
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.cutlery{
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 5px; 
+}
+
+.like{
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.ingredients{
+  margin: 5px;
+  /* border: 3px solid burlywood; */
+  width: 100%
+}
+
+.interactiveQr{
+  margin: 5px;
+  /* border: 3px solid black; */
+}
+.qrcode{
+  color: red;
+  height: auto;
+  width: auto;
+}
+/* .preparation{
+border: 3px solid orange;
+}
+
+.preRequisites{
+  border: 3px solid tomato; 
+}
+
+.socialMedia{
+  border: 3px solid chartreuse; 
+ 
+} */
+.facebook{
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+.instagram{
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.twitter{
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.video{
+ /*  border: 3px solid chocolate;  */
+  flex-shrink: 4;
+  margin: 5px;
+  width: 500px;
+  
+
+}
+
+.headerRecipe{
+ /*  border: 3px solid brown; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+}
+
+.headerRecipe > .rightContainer {
+  /* border: 3px solid brown; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 350px;
+  margin: 5px;
+}
+
+button {
+  border: none;
+  padding: .3rem 2.3rem;
+}
+
+button > img {
+  width: 2rem;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .recipeDetailContainer {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .recipeContainer {
+    width: 100%;
+  }
+
+  .productsListContainer {
+    /* border: 3px solid magenta; */
+    background: rgba(255, 255, 255, 0.91);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  /* .item {
+    border: 3px solid green;
+  }
+ */
+  .imag {
+    /* border: 3px solid royalblue; */
+    display: flex;
+    flex-direction: row;
+  }
+
+ /*  .itemInfo {
+    border: 3px solid red;
+  } */
+
+  .carrit {
+    color: #fff;
+    background-color: #E7332C;
+    border-radius: 5px;
+
+
+
+
+  }
+
+  .quantity {
+    width: 50px;
+
+    padding: 10px;
+  }
+
+  .btnqty {
+    border: none;
+    margin: 5px;
+    padding: 10px;
+  }
+
+  .info {
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .watch {
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .cutlery {
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .like {
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .ingredients {
+    /* border: 3px solid burlywood; */
+    width: 80%;
+    margin: 5rem auto;
+  }
+
+  .heading {
+    width: 80%;
+    text-align: center;
+  }
+
+  .interactiveQr {
+    margin: 0 auto;
+  }
+
+  .qrcode {
+    color: red;
+    height: auto;
+    width: auto;
+  }
+
+  .preparation {
+    /* border: 3px solid orange; */
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+  .preRequisites {
+    /* border: 3px solid tomato; */
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+  
+  .socialMedia {
+    /* border: 3px solid chartreuse; */
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+
+  } 
+
+  .facebook {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+
+  .instagram {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+  }
+
+  .twitter {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .video {
+/*     border: 3px solid chocolate; */
+   flex-shrink: 4;
+   margin: 5px;
+   width: 100%;
+   text-align: center;
+  }
+
+  .videoIframe {
+    width: 81%;
+    height: 30%;
+  }
+
+  .headerRecipe {
+    /* border: 3px solid brown; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .headerRecipe>.rightContainer {
+    /* border: 3px solid brown; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 350px;
+    margin: 5px;
+  }
+}
