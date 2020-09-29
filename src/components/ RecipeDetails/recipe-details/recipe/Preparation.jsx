@@ -7,7 +7,7 @@ export const Preparation = () => {
   
   return(
     <div className='preparation'>
-      <h4>Preparación:</h4>
+      <h4>Preparación: </h4>
       {contextValue.loading ? 
         <div>
           <Skeleton />

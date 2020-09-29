@@ -1,9 +1,9 @@
 import React from 'react';
-
 import { ProductsList } from './products-list/index.jsx';
 import { Recipe } from './recipe/index.jsx';
 import '../recipe-details/recipe-details.css';
 import { RecipeContextProvider } from '../../contexts/recipe';
+
 
 
 export const RecipeDetails = () => {
@@ -19,8 +19,8 @@ export const RecipeDetails = () => {
   return (
     
       <RecipeContextProvider>
-        
-        <h1>Página de Recetas de Unimarc</h1>
+      
+       <h4>Lasaña de verduras y atún</h4>
         <div className='recipe-detail-container'>
           <Recipe />
           <ProductsList />
