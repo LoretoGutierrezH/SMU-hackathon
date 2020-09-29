@@ -1,19 +1,21 @@
 import React, {useContext} from 'react'
 import { RecipeContext } from '../../../contexts/recipe';
 import Skeleton from 'react-loading-skeleton';
+import style from "../recipe-details.module.css";
+
 
 export const PreRequisites = () => {
   const contextValue = useContext(RecipeContext)
   
   return(
-    <div className='pre-requisites'>
+    <div className={style.preRequisites}>
       <h4>Revisa si tienes en tu casa:</h4>
       {contextValue.loading ? 
-        <div>
+        <ul>
           <Skeleton />
           <Skeleton />
           <Skeleton />
-        </div>
+        </ul>
         : (contextValue.recipe || {} ).prerequisites
       }
     </div>

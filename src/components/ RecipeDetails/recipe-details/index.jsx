@@ -1,8 +1,8 @@
 import React from 'react';
 import { ProductsList } from './products-list/index.jsx';
 import { Recipe } from './recipe/index.jsx';
-import '../recipe-details/recipe-details.css';
 import { RecipeContextProvider } from '../../contexts/recipe';
+import style from './recipe-details.module.css';
 
 
 
@@ -20,8 +20,9 @@ export const RecipeDetails = () => {
     
       <RecipeContextProvider>
       
-       <h4>Lasaña de verduras y atún</h4>
-        <div className='recipe-detail-container'>
+       <h4 style={{fontFamily: "clarendonFamily",
+    marginLeft: "3rem", marginTop: "2rem"}}>Lasaña de verduras y atún</h4>
+        <div className={style.recipeDetailContainer}>
           <Recipe />
           <ProductsList />
         </div>

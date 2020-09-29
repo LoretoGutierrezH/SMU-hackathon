@@ -1,11 +1,38 @@
 .bgColor {
-  background-color: red;
+  background-color: #DA291C;
   min-height: 8vh;
   width: 100%;
 }
 
-.linksColor > a {
+.links:hover, .links:active {
+  color: grey;
+}
+
+.categoriesList {
+  width: 20%;
+  position: absolute;
+  z-index: 1000;
   color: white;
+  background-color: #DA291C;
+}
+
+.categoriesList > li {
+  list-style: none;
+  padding: 1rem;
+  margin-left: -1rem;
+  background-color: #DA291C;
+}
+
+.categoriesList > li:last-child {
+  border-radius: 5px;
+}
+
+.active {
+  display: block;
+}
+
+.hidden {
+  display: none;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
