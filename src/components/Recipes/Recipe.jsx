@@ -7,14 +7,6 @@ const Recipe = (props) => {
   return (
       <Card className={style.cardContainer}>
         <Card.Img variant="top" src={props.image} />
-
-      <Card style={{ border: "none" }} className={style.cardContainer}>
-        <Link to="/recetas/saludables/lasaña-atún"><Card.Img
-          className={style.recipeImage}
-          variant="top"
-          src={props.image}
-        /></Link>
-
         <Card.Body>
           <Card.Title>{props.name}</Card.Title>
           <Card.Text>
