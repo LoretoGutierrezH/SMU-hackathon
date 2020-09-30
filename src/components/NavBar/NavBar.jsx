@@ -17,18 +17,20 @@ const NavBar = (props) => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link
-              onClick={() => showCategories()}
-              style={{ color: "white" }}
-              className={style.linksColor}
-              href="#features"
+            <NavDropdown
+              title="Categorías"
+              id="collasible-nav-dropdown"
             >
-              <span
-                style={{ color: "white", marginRight: ".5rem" }}
-                className="navbar-toggler-icon"
-              ></span>
-              Categorías
-            </Nav.Link>
+              <NavDropdown.Item href="#action/3.1">
+                Catálogo
+              </NavDropdown.Item>
+              <NavDropdown.Item>Recetas</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Club Ahorro</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Recetas Junaeb</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">OFERTAS</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Locales y Horarios</NavDropdown.Item>
+            </NavDropdown>
+
             <Nav.Link style={{ color: "white" }}>
               <Link
                 style={{ color: "white" }}
@@ -59,14 +61,19 @@ const NavBar = (props) => {
           ></span>
         </Nav.Link>
       </Navbar>
-      <ul className={categoriesState ? `${style.categoriesList} ${style.active}` : `${style.categoriesList} ${style.hidden}`}>
+      <ul
+        className={
+          categoriesState
+            ? `${style.categoriesList} ${style.active}`
+            : `${style.categoriesList} ${style.hidden}`
+        }
+      >
         <li>Catálogo</li>
         <li>Club Ahorro</li>
         <li>Recetas Junaeb</li>
         <li>OFERTAS</li>
         <li>Locales y Horarios</li>
       </ul>
-
     </section>
   );
 }

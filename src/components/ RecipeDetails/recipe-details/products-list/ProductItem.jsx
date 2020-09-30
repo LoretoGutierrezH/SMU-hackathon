@@ -11,7 +11,6 @@ export const ProductItem = () => {
   } = useContext(RecipeContext) 
   return(
     <div className={style.productItem}>
-  <h4>Ingredientes:</h4>
         { loading ?
         <div style={{width:'100%'}}>
           <Skeleton />
@@ -21,7 +20,7 @@ export const ProductItem = () => {
           <Skeleton />
           <Skeleton />
         </div>
-          : <ul>
+          : <ul style={{marginTop: "1rem", marginLeft: "-1rem"}}>
             {(recipe.ingredients || [] ).map((ingredient) => { //prevenimos que la  variable ingredient sea undefine
               return <div> 
                 <div>
