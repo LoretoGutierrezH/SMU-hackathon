@@ -15,6 +15,24 @@ comentario para pushear
   text-align: center;
 }
 
+.menuBtn>div {
+  background-color: #DA291C;
+  color: white !important;
+}
+
+.ddItem:hover {
+  background-color: grey;
+}
+
+.innerLink a:hover {
+  text-decoration: none;
+}
+
+.innerLink > a, .innerLink > a:focus, .innerLink > a:active {
+  color: white;
+  text-decoration: none;
+}
+
 .links:hover, .links:active {
   color: grey;
 }

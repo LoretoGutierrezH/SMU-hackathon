@@ -104,14 +104,15 @@ const Recipes = (props) => {
               title="Menú"
               id="collasible-nav-dropdown"
             >
-              <NavDropdown.Item href="#action/3.1">
-                Catálogo
+              <NavDropdown.Item className={style.ddItem} style={{color: "white"}} ><Link className={style.links} to="/recetas/saludables">
+                Saludables</Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Recetas</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Club Ahorro</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Recetas Junaeb</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">OFERTAS</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Locales y Horarios</NavDropdown.Item>
+              <NavDropdown.Item className={style.ddItem} style={{color: "white"}} ><Link className={style.links} to="/recetas/saludables">Almuerzos</Link></NavDropdown.Item>
+              <NavDropdown.Item className={style.ddItem} style={{color: "white"}}><Link className={style.links} to="/recetas/saludables">Postres</Link></NavDropdown.Item>
+              <NavDropdown.Item className={style.ddItem} style={{color: "white"}} ><Link className={style.links} to="/recetas/saludables">Sopas</Link></NavDropdown.Item>
+              <NavDropdown.Item className={style.ddItem} style={{color: "white"}} ><Link className={style.links} to="/recetas/saludables">Vegetariano</Link></NavDropdown.Item>
+              <NavDropdown.Item className={style.ddItem} style={{color: "white"}} ><Link className={style.links} to="/recetas/saludables">Sin gluten</Link></NavDropdown.Item>
+              <NavDropdown.Item className={style.ddItem} style={{color: "white"}} ><Link className={style.links} to="/recetas/saludables">En menos de 30 minutos</Link></NavDropdown.Item>
             </NavDropdown>
         </section>
         <SearchBar search={(event) => searchHandler(event)}></SearchBar>
