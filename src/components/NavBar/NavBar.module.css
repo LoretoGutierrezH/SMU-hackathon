@@ -4,6 +4,13 @@
   width: 100%;
 }
 
+.menuBtn>a {
+  background-color: #DA291C;
+  border-radius: 5px;
+  color: white !important;
+  text-align: center;
+}
+
 .links:hover, .links:active {
   color: grey;
 }

@@ -7,15 +7,12 @@
 }
 
 .menuBtn > a {
-  background-color: red;
+  background-color: #DA291C;
   border-radius: 5px;
   color: white;
   text-align: center;
 }
 
-#collasible-nav-dropdown > a {
-  color: white;
-}
 
 .menuList {
   background-color: #DA291C;

@@ -39,7 +39,7 @@ const App = () => {
           <Route path="/" exact component={Home}></Route>
           <Route path="/recetas/saludables/lasaña-atún" component={RecipeDetails} />
           <Route path="/recetas/saludables" component={Recipes} />
-          <Route path="/recetas" component={Recipes} />
+          <Route path="/recetas" component={Recipes} /> {/* AQUÍ VA TU RUTA DE COMPONENTE */} 
         </Switch>
       </div>
       <Footer />
