@@ -1,5 +1,6 @@
 .footerContainer {
   display: flex;
+  flex-flow: row wrap;
   padding-top: 1rem;
   justify-content: space-evenly;
   background-color: #121212;
@@ -28,4 +29,11 @@
   align-content: center;
   
   
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .extraInfo {
+    display: flex;
+    margin: 0 1rem;
+  }
 }

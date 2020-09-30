@@ -9,7 +9,7 @@ export const PreRequisites = () => {
   
   return(
     <div className={style.preRequisites}>
-      <h4>Revisa si tienes en tu casa:</h4>
+      <h4 style={{marginTop: "3rem"}}>Revisa si tienes en tu casa:</h4>
       {contextValue.loading ? 
         <ul>
           <Skeleton />

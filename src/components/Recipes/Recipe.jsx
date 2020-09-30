@@ -7,7 +7,7 @@ const Recipe = (props) => {
   return (
       <Card style={{ border: "none" }} className={style.cardContainer}>
         <Link to="/recetas/saludables/lasaña-atún"><Card.Img
-          style={{ height: "22.2rem" }}
+          className={style.recipeImage}
           variant="top"
           src={props.image}
         /></Link>
