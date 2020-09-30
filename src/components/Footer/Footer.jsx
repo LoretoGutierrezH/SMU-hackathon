@@ -39,7 +39,7 @@ const Footer = (props) => {
       </div>
                 
       </div>
-      <div> 
+      <div className={style.extraInfo}> 
       <p>Revisa nuestras:</p>
       <p> Base Legales</p>
       <p> Tarjeta Unimarc</p>

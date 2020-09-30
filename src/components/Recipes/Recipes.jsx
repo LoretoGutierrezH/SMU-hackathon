@@ -5,6 +5,7 @@ import MainBanner from '../MainBanner/MainBanner.jsx';
 import data from "../../data/recipes.json";
 import Recipe from "../Recipes/Recipe.jsx";
 import { Link } from 'react-router-dom';
+import { NavDropdown } from 'react-bootstrap';
 
 const Recipes = (props) => {
   const miniData = [
@@ -43,7 +44,6 @@ const Recipes = (props) => {
   ];
 
   const [searchState, setSearchState] = useState(miniData);
-  const [menuState, setMenuState] = useState(false);
   const recipes = data.recipes;
 
   //función conectada al evento onChange
@@ -91,35 +91,29 @@ const Recipes = (props) => {
       />
     );
   });
-
-  const showList = () => {
-    if (menuState === false) {
-     setMenuState(true);
-    } else {
-      setMenuState(false);
-    }
-  }
   return (
     <main className={style.recipesContainer}>
       <MainBanner></MainBanner>
       <p>Placholder de Breadcrumbs</p>
       <section className={style.actionsContainer}>
         <section className={style.menu}>
-          <button onClick={() => showList()} className={style.menuBtn}>
-            Menú <span className={style.chevron}>&#x2304;</span>
-          </button>
+          <NavDropdown
+              className={style.menuBtn}
+              title="Menú"
+              id="collasible-nav-dropdown"
+            >
+              <NavDropdown.Item href="#action/3.1">
+                Catálogo
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Recetas</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Club Ahorro</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Recetas Junaeb</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">OFERTAS</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Locales y Horarios</NavDropdown.Item>
+            </NavDropdown>
         </section>
         <SearchBar search={(event) => searchHandler(event)}></SearchBar>
       </section>
-      <ul className={!menuState ? `${style.menuList} ${style.hidden}` : `${style.menuList} ${style.active}`}>
-            <Link className={style.links} to="/recetas/saludables"><li style={{ marginTop: "1rem"}}>Saludables</li></Link>
-            <li>Almuerzos</li>
-            <li>Postres</li>
-            <li>Sopas</li>
-            <li>Vegetariano</li>
-            <li>Sin gluten</li>
-            <li>En menos de 30 min</li>
-          </ul>
       <section className={style.cardsWrapper}>{displayedResult}</section>
     </main>
   );

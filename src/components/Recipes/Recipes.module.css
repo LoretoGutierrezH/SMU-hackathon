@@ -2,18 +2,19 @@
   min-height: 120vh;
 }
 
-.menuBtn {
-  background-color: #DA291C;
-  color: white;
-  border: none;
-  padding: 0rem 4rem;
-  border-radius: 5px;
-  margin-bottom: 1rem;
-  max-height: 3rem;
+.recipeImage {
+  height: 22.2rem;
 }
 
-.menuBtn > .chevron {
-  font-size: 2rem;
+.menuBtn > a {
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+#collasible-nav-dropdown > a {
+  color: white;
 }
 
 .menuList {
@@ -51,7 +52,8 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  margin: 0rem 7rem;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .cardsWrapper {
@@ -85,6 +87,15 @@
 @media (min-width: 320px) and (max-width: 768px) {
   .cardContainer {
     width: 100%;
+  }
+
+  .recipeImage {
+    height: auto;
+  }
+
+  .menuList {
+    left: 2rem;
+    top: 17rem;
   }
 }
 
