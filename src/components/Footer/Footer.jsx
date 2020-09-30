@@ -5,8 +5,7 @@ import facebook from '../../assets/facebook.png'
 import twitter from '../../assets/twitter.png'
 import phone from '../../assets/phone.png'
 import logoFooter from '../../assets/logo-footer.png'
-
- 
+//comentario para pushear
 
 const Footer = (props) => {
   return (

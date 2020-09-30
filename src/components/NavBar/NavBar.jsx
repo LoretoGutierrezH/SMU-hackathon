@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import style from './NavBar.module.css';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+//comentario para pushear
+
 const NavBar = (props) => {
   const [categoriesState, setCategoriesState] = useState(false);
   const showCategories = () => {
@@ -15,20 +17,25 @@ const NavBar = (props) => {
     <section>
       <Navbar collapseOnSelect expand="lg" className={style.bgColor}>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse style={{backgroundColor: "#DA291C"}} id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <NavDropdown
+              className={style.menuBtn}
               title="Categorías"
               id="collasible-nav-dropdown"
             >
-              <NavDropdown.Item href="#action/3.1">
-                Catálogo
+              <NavDropdown.Item href="#action/3.1">Catálogo</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Recetas</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">
+                Club Ahorro
               </NavDropdown.Item>
-              <NavDropdown.Item>Recetas</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Club Ahorro</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Recetas Junaeb</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">
+                Recetas Junaeb
+              </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">OFERTAS</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Locales y Horarios</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">
+                Locales y Horarios
+              </NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Link style={{ color: "white" }}>
@@ -41,7 +48,7 @@ const NavBar = (props) => {
               </Link>
             </Nav.Link>
             <NavDropdown
-              style={{ color: "white" }}
+              className={style.menuBtn}
               title="Selecciona tu local"
               id="collasible-nav-dropdown"
             >

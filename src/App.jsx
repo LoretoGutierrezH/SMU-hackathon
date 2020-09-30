@@ -9,6 +9,8 @@ import Footer from './components/Footer/Footer.jsx';
 import Home from './components/Home/Home.jsx';
 import {RecipeDetails} from './components/ RecipeDetails/recipe-details/index.jsx';
 import  { BrowserRouter as Router,  Route, Switch } from 'react-router-dom';
+//comentario para pushear
+
 console.log(db, auth.currentUser);
 
 
@@ -39,7 +41,7 @@ const App = () => {
           <Route path="/" exact component={Home}></Route>
           <Route path="/recetas/saludables/lasaña-atún" component={RecipeDetails} />
           <Route path="/recetas/saludables" component={Recipes} />
-          <Route path="/recetas" component={Recipes} />
+          <Route path="/recetas" component={Recipes} /> {/* AQUÍ VA TU RUTA DE COMPONENTE */} 
         </Switch>
       </div>
       <Footer />

@@ -6,6 +6,8 @@ import data from "../../data/recipes.json";
 import Recipe from "../Recipes/Recipe.jsx";
 import { Link } from 'react-router-dom';
 import { NavDropdown } from 'react-bootstrap';
+//comentario para pushear
+
 
 const Recipes = (props) => {
   const miniData = [

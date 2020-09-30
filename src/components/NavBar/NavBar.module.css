@@ -1,7 +1,18 @@
+/*
+comentario para pushear
+*/
+
 .bgColor {
   background-color: #DA291C;
   min-height: 8vh;
   width: 100%;
+}
+
+.menuBtn>a {
+  background-color: #DA291C;
+  border-radius: 5px;
+  color: white !important;
+  text-align: center;
 }
 
 .links:hover, .links:active {
