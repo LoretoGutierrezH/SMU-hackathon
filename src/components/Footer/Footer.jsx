@@ -25,13 +25,13 @@ const Footer = (props) => {
       <div className = {style.socialContain}>
        
         <div className={style.socialNetworks}>
-        <img src ={instagram}></img>
+          <a href="https://www.instagram.com/unimarc/?hl=es-la" target="_blank"><img src ={instagram}></img></a>
         </div>
         <div className={style.socialNetworks}>
-        <img src ={facebook}></img>
+        <a href="https://www.facebook.com/unimarc?fref=ts" target="_blank"><img src ={facebook}></img></a>
         </div>
         <div className={style.socialNetworks}>
-        <img src ={twitter}></img>
+        <a href="https://twitter.com/Unimarc" target="_blank"><img src ={twitter}></img></a>
         </div>
 
 
@@ -40,7 +40,7 @@ const Footer = (props) => {
       </div>
       <div className={style.extraInfo}> 
       <p>Revisa nuestras:</p>
-      <p> Base Legales</p>
+      <p> Bases Legales</p>
       <p> Tarjeta Unimarc</p>
       <p> Unired</p>
 

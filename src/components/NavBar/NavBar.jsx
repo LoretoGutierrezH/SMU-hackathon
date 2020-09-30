@@ -1,21 +1,39 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import style from './NavBar.module.css';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import UnimarcLogo from '../../assets/logo.png';
 //comentario para pushear
 
 const NavBar = (props) => {
-  const [categoriesState, setCategoriesState] = useState(false);
-  const showCategories = () => {
-    if (!categoriesState) {
-      setCategoriesState(true);
+  const [navBrand, setNavBrand] = useState(false);
+  const viewportWidth = document.documentElement.clientWidth;
+
+  const showNavBrand = (value) => {
+    if (!navBrand) {
+      setNavBrand(value);
     } else {
-      setCategoriesState(false);
+      setNavBrand(value);
     }
-  }
+  };
+
+  useEffect(() => {
+    if (viewportWidth < 768) {
+      showNavBrand(true);
+    } else {
+      showNavBrand(false);
+    }
+  }, [])
+  
+
+
+
+  
+
   return (
     <section>
       <Navbar collapseOnSelect expand="lg" className={style.bgColor}>
+        <Navbar.Brand className={navBrand ? `${style.active}` : `${style.hidden}`} style={{position: "absolute", left: "5.8rem", top: "1.4rem", width: "10rem"}}><img style={{width: "100%"}} src={UnimarcLogo} alt="Logo Unimarc"></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse style={{backgroundColor: "#DA291C"}} id="responsive-navbar-nav">
           <Nav className="mr-auto">
@@ -24,16 +42,16 @@ const NavBar = (props) => {
               title="Categorías"
               id="collasible-nav-dropdown"
             >
-              <NavDropdown.Item href="#action/3.1">Catálogo</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Recetas</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">
+              <NavDropdown.Item className={style.ddItem} style={{color: "white"}} href="https://www.unimarc.cl/catalogo/" target="_blank">Catálogo</NavDropdown.Item>
+              <Link to="/recetas" className={style.innerLink}><NavDropdown.Item className={style.ddItem} style={{color: "white"}}>Recetas</NavDropdown.Item></Link>
+              <NavDropdown.Item className={style.ddItem} style={{color: "white"}} href="https://www.clubahorro.cl/?pid=Unimarc.cl&c=Lanzamiento_APPCA&af_channel=referral&af_ad=Pesta%C3%B1a_Club_Ahorro">
                 Club Ahorro
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">
+              <NavDropdown.Item className={style.ddItem} style={{color: "white"}} href="https://www.unimarc.cl/receta-junaeb/">
                 Recetas Junaeb
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">OFERTAS</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">
+              <NavDropdown.Item className={style.ddItem} style={{color: "white"}} href="https://www.unimarc.cl/ofertas/">OFERTAS</NavDropdown.Item>
+              <NavDropdown.Item className={style.ddItem} style={{color: "white"}} href="https://www.unimarc.cl/locales_unimarc/">
                 Locales y Horarios
               </NavDropdown.Item>
             </NavDropdown>
@@ -52,11 +70,11 @@ const NavBar = (props) => {
               title="Selecciona tu local"
               id="collasible-nav-dropdown"
             >
-              <NavDropdown.Item href="#action/3.1">
+              <NavDropdown.Item className={style.ddItem} style={{color: "white"}} href="#action/3.1">
                 Independencia
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Las Condes</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Maipú</NavDropdown.Item>
+              <NavDropdown.Item className={style.ddItem} style={{color: "white"}} href="#action/3.2">Las Condes</NavDropdown.Item>
+              <NavDropdown.Item className={style.ddItem} style={{color: "white"}} href="#action/3.3">Maipú</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
@@ -68,19 +86,6 @@ const NavBar = (props) => {
           ></span>
         </Nav.Link>
       </Navbar>
-      <ul
-        className={
-          categoriesState
-            ? `${style.categoriesList} ${style.active}`
-            : `${style.categoriesList} ${style.hidden}`
-        }
-      >
-        <li>Catálogo</li>
-        <li>Club Ahorro</li>
-        <li>Recetas Junaeb</li>
-        <li>OFERTAS</li>
-        <li>Locales y Horarios</li>
-      </ul>
     </section>
   );
 }

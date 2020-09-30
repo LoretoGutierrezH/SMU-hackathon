@@ -6,7 +6,7 @@
 }
 
 .recipeImage {
-  height: 22.2rem;
+  height: 20rem;
 }
 
 .menuBtn > a {
@@ -16,6 +16,14 @@
   text-align: center;
 }
 
+.menuBtn > div {
+  background-color: #DA291C;
+  color: white !important;
+}
+
+.ddItem:hover {
+  background-color: grey;
+}
 
 .menuList {
   background-color: #DA291C;
@@ -60,12 +68,14 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
+  margin: 4rem 0;
 }
 
 /* RECIPE (singular xd) */
 .cardContainer {
   width: 40%;
   margin: 1rem;
+  border: none;
 }
 
 .recipeLink, .recipeLink:hover {
@@ -99,3 +109,15 @@
   }
 }
 
+/* @media (min-width: 375px) and (max-width: 424px) {
+  .actionsContainer {
+    width: 94%;
+  }
+}
+
+@media (min-width: 425) and (max-width: 425px) {
+  .actionsContainer {
+    width: 94%;
+  
+  }
+} */
