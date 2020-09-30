@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import style from './NavBar.module.css';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+//comentario para pushear
+
 const NavBar = (props) => {
   const [categoriesState, setCategoriesState] = useState(false);
   const showCategories = () => {

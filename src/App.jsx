@@ -9,6 +9,8 @@ import Footer from './components/Footer/Footer.jsx';
 import Home from './components/Home/Home.jsx';
 import {RecipeDetails} from './components/ RecipeDetails/recipe-details/index.jsx';
 import  { BrowserRouter as Router,  Route, Switch } from 'react-router-dom';
+//comentario para pushear
+
 console.log(db, auth.currentUser);
 
 

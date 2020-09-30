@@ -1,5 +1,6 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import style from './SearchBar.module.css';
+//comentario para pushear
 
 
 const SearchBar = (props) => {
