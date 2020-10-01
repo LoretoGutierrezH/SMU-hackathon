@@ -10,6 +10,8 @@ import uniCard from '../../assets/tarjeta.jpg';
 import inclusivo from '../../assets/inclusivo.jpg';
 import locales from '../../assets/locales.jpg';
 import delivery from '../../assets/glovo-cornershop-rappi.jpg';
+
+
 //comentario para pushear
 
 const Home = (props) => {

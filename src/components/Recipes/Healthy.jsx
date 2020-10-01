@@ -1,21 +1,16 @@
-import React, {useState} from 'react';
-import SearchBar from "../SearchBar/SearchBar.jsx";
-import {NavDropdown} from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import { Breadcrumb } from "react-bootstrap";
+import React, { useState } from 'react';
 import style from './Healthy.module.css';
-import data from '../../data/recipes.json';
-import Recipe from './Recipe.jsx';
-import { Carousel } from "react-bootstrap";
-import brownie from "../../assets/brownie (2).png";
-import avocado from "../../assets/paltas (1).png";
-import weeklyMenu from "../../assets/menuSemanal (1).png";
-import share from "../../assets/compartirRecetas (1).png";
-import like from "../../assets/likefavorite (1).png";
-import tips from "../../assets/tipsUnimarc.png";
-import slider from "../../assets/slidervideo.png";
+import SearchBar from '../SearchBar/SearchBar.jsx';
+import MainBanner from '../MainBanner/MainBanner.jsx';
+import data from "../../data/recipes.json";
+import Recipe from "./Recipe.jsx";
+import { Link } from 'react-router-dom';
+import { NavDropdown } from 'react-bootstrap';
+import { Breadcrumb } from "react-bootstrap";
 
-const Healthy = (props) => {
+
+
+const Recipes = (props) => {
   const miniData = [
     {
       id: 21,
@@ -100,10 +95,12 @@ const Healthy = (props) => {
     );
   });
   return (
-    <section>
+    <main className={style.recipesContainer}>
+      <MainBanner></MainBanner>
       <Breadcrumb>
         <Breadcrumb.Item className={style.breadCrumbLinks} href="/">Home</Breadcrumb.Item>
         <Breadcrumb.Item className={style.breadCrumbLinks} href="/recetas">Recetas</Breadcrumb.Item>
+        <Breadcrumb.Item className={style.breadCrumbLinks} href="/recetas/saludables">Saludables</Breadcrumb.Item>
       </Breadcrumb>
       <section className={style.actionsContainer}>
         <section className={style.menu}>
@@ -170,48 +167,11 @@ const Healthy = (props) => {
             </NavDropdown.Item>
           </NavDropdown>
         </section>
+        <SearchBar search={(event) => searchHandler(event)}></SearchBar>
       </section>
-    <div className={style.homeRecipeContainer}>
-        <div className={style.sliderContainer}>
-            <Carousel>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src={brownie}
-                    alt="First slide"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src={avocado}
-                    alt="Third slide"
-                  />
-                </Carousel.Item>
-              </Carousel>
-        </div>
-        <div className={style.cardContain}>
-          <div className={style.containCards}>
-            <img src={weeklyMenu}></img>
-          </div>
-          <div className={style.containCards}>
-            <img src={share}></img>
-          </div>
-          <div className={style.containCards}>
-            <img src={like}></img>
-          </div>
-        </div>
-      <div className={style.containTips}>
-        <div className={style.containCards}>
-          <img src={tips}></img>
-        </div>
-        <div className={style.containCards}>
-          <img src={slider}></img>
-        </div>
-      </div>
-      </div>
-    </section>
+      <section className={style.cardsWrapper}>{displayedResult}</section>
+    </main>
   );
 }
 
-export default Healthy;
+export default Recipes;

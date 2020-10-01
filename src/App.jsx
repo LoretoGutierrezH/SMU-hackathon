@@ -3,12 +3,13 @@ import firebase, { db, auth } from './Firebase';
 import Header from './components/Header/Header.jsx';
 import NavBar from './components/NavBar/NavBar.jsx';
 import BannerSlider from './components/BannerSlider/BannerSlider.jsx';
-import Recipes from './components/Recipes/Recipes.jsx';
 import SearchBar from './components/SearchBar/SearchBar.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Home from './components/Home/Home.jsx';
 import {RecipeDetails} from './components/ RecipeDetails/recipe-details/index.jsx';
 import  { BrowserRouter as Router,  Route, Switch } from 'react-router-dom';
+import Healthy from './components/Recipes/Healthy.jsx';
+import Recipes from './components/Recipes/Recipes.jsx';
 //comentario para pushear
 
 console.log(db, auth.currentUser);
@@ -40,8 +41,8 @@ const App = () => {
         <Switch>
           <Route path="/" exact component={Home}></Route>
           <Route path="/recetas/saludables/lasaña-atún" component={RecipeDetails} />
-          <Route path="/recetas/saludables" component={Recipes} />
-          <Route path="/recetas" component={Recipes} /> {/* AQUÍ VA TU RUTA DE COMPONENTE */} 
+          <Route path="/recetas/saludables" component={Healthy} />
+          <Route path="/recetas" component={Recipes} />
         </Switch>
       </div>
       <Footer />

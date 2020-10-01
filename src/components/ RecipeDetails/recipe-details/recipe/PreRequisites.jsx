@@ -10,14 +10,15 @@ export const PreRequisites = () => {
   return(
     <div className={style.preRequisites}>
       <h4 style={{marginTop: "3rem"}}>Revisa si tienes en tu casa:</h4>
-      {contextValue.loading ? 
+     {/*  {contextValue.loading ?  */}
         <ul>
-          <Skeleton />
-          <Skeleton />
-          <Skeleton />
+          <li>Orégano</li>
+          <li>Aceite</li>
+          <li>Sal</li>
+          <li>Pimienta</li>
         </ul>
-        : (contextValue.recipe || {} ).prerequisites
-      }
+        {/* : (contextValue.recipe || {} ).prerequisites
+      } */}
     </div>
   )
 }
