@@ -56,10 +56,10 @@ const NavBar = (props) => {
               </NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link style={{ color: "white" }}>
+            <Nav.Link style={{ color: "white", margin: "0 auto"}}>
               <Link
-                style={{ color: "white" }}
-                className={style.links}
+                style={{ color: "white"}}
+                className={`${style.links} ${style.centeredLink}`}
                 to="/recetas"
               >
                 Recetas

@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Recipes.module.css';
+import style from './Healthy.module.css';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 

@@ -1,13 +1,16 @@
-import React, {useState} from 'react';
-import SearchBar from "../SearchBar/SearchBar.jsx";
-import {NavDropdown} from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import { Breadcrumb } from "react-bootstrap";
+import React, { useState } from 'react';
 import style from './Healthy.module.css';
-import data from '../../data/recipes.json';
-import Recipe from './Recipe.jsx';
+import SearchBar from '../SearchBar/SearchBar.jsx';
+import MainBanner from '../MainBanner/MainBanner.jsx';
+import data from "../../data/recipes.json";
+import Recipe from "./Recipe.jsx";
+import { Link } from 'react-router-dom';
+import { NavDropdown } from 'react-bootstrap';
+import { Breadcrumb } from "react-bootstrap";
 
-const Healthy = (props) => {
+
+
+const Recipes = (props) => {
   const miniData = [
     {
       id: 21,
@@ -92,10 +95,12 @@ const Healthy = (props) => {
     );
   });
   return (
-    <section>
+    <main className={style.recipesContainer}>
+      <MainBanner></MainBanner>
       <Breadcrumb>
         <Breadcrumb.Item className={style.breadCrumbLinks} href="/">Home</Breadcrumb.Item>
         <Breadcrumb.Item className={style.breadCrumbLinks} href="/recetas">Recetas</Breadcrumb.Item>
+        <Breadcrumb.Item className={style.breadCrumbLinks} href="/recetas/saludables">Saludables</Breadcrumb.Item>
       </Breadcrumb>
       <section className={style.actionsContainer}>
         <section className={style.menu}>
@@ -164,9 +169,9 @@ const Healthy = (props) => {
         </section>
         <SearchBar search={(event) => searchHandler(event)}></SearchBar>
       </section>
-      
-    </section>
+      <section className={style.cardsWrapper}>{displayedResult}</section>
+    </main>
   );
 }
 
-export default Healthy;
+export default Recipes;

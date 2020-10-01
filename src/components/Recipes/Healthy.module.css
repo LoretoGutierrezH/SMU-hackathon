@@ -109,6 +109,12 @@
   }
 }
 
+.breadCrumbLinks > a,
+.breadCrumbLinks > a:hover,
+.breadCrumbLinks > a:active {
+  color: #DA291C;
+}
+
 /* @media (min-width: 375px) and (max-width: 424px) {
   .actionsContainer {
     width: 94%;

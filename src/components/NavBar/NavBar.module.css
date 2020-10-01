@@ -64,6 +64,10 @@ comentario para pushear
   display: none;
 }
 
+.centeredLink > a {
+  margin: 0 auto;
+}
+
 @media (min-width: 320px) and (max-width: 768px) {
   .bgColor {
     min-height: 12vh;
