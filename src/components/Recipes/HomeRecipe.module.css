@@ -1,0 +1,40 @@
+.homeRecipeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.sliderContainer {
+  width: 70%;
+}
+
+.cardContain {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+  width: 60%;
+  align-items: center;
+  flex-flow: row wrap;
+  padding-top: 1rem;
+  justify-content: space-evenly;
+}
+
+.containCards {
+  width: 18rem;
+}
+
+.containCards img {
+  width: 100%;
+}
+
+.containTips {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+  width: 100%;
+  align-items: center;
+  flex-flow: row wrap;
+  padding-top: 1rem;
+  justify-content: space-evenly;
+}

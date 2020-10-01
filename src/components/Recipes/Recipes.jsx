@@ -6,6 +6,14 @@ import { Breadcrumb } from "react-bootstrap";
 import style from './Healthy.module.css';
 import data from '../../data/recipes.json';
 import Recipe from './Recipe.jsx';
+import { Carousel } from "react-bootstrap";
+import brownie from "../../assets/brownie (2).png";
+import avocado from "../../assets/paltas (1).png";
+import weeklyMenu from "../../assets/menuSemanal (1).png";
+import share from "../../assets/compartirRecetas (1).png";
+import like from "../../assets/likefavorite (1).png";
+import tips from "../../assets/tipsUnimarc.png";
+import slider from "../../assets/slidervideo.png";
 
 const Healthy = (props) => {
   const miniData = [
@@ -162,9 +170,46 @@ const Healthy = (props) => {
             </NavDropdown.Item>
           </NavDropdown>
         </section>
-        <SearchBar search={(event) => searchHandler(event)}></SearchBar>
       </section>
-      
+    <div className={style.homeRecipeContainer}>
+        <div className={style.sliderContainer}>
+            <Carousel>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={brownie}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={avocado}
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+              </Carousel>
+        </div>
+        <div className={style.cardContain}>
+          <div className={style.containCards}>
+            <img src={weeklyMenu}></img>
+          </div>
+          <div className={style.containCards}>
+            <img src={share}></img>
+          </div>
+          <div className={style.containCards}>
+            <img src={like}></img>
+          </div>
+        </div>
+      <div className={style.containTips}>
+        <div className={style.containCards}>
+          <img src={tips}></img>
+        </div>
+        <div className={style.containCards}>
+          <img src={slider}></img>
+        </div>
+      </div>
+      </div>
     </section>
   );
 }
